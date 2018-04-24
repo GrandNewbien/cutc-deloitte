@@ -3,7 +3,7 @@
 ## Team:
 
 * Shivani Thaker
-* Jude Tillekratne
+* Jude Tillekeratne
 * Tejpal Sahota
 
 # Tools used: 
