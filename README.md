@@ -19,7 +19,9 @@
 
 1. Clone repo and install Flask + Savoir
 
-2. Set your environment variable
+2. Navigate into repo
+
+3. Set your environment variable
 * PowerShell:
 ```powershell
 $env:FLASK_APP = "hello.py"
