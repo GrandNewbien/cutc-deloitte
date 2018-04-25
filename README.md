@@ -16,7 +16,10 @@
 * [Flask]()
 
 # Install
-1. Set your environment variable
+
+1. Clone repo and install Flask + Savoir
+
+2. Set your environment variable
 * PowerShell:
 ```powershell
 $env:FLASK_APP = "hello.py"
