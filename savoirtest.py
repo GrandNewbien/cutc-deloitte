@@ -7,4 +7,3 @@ chainname = 'chain1'
 
 api = Savoir(rpcuser, rpcpasswd, rpchost, rpcport, chainname)
 print(api.getinfo())
-print(api.liststreamitems())

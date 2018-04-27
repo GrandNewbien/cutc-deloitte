@@ -1,5 +1,6 @@
 # CUTC Challenge
 
+This readme was written assuming a windows environment. 
 ## Team:
 
 * Shivani Thaker
@@ -33,4 +34,14 @@ set FLASK_APP = "hello.py"
 
 # Usage
 
+1. Launch the MultiChain Daemon for every chain you'd like to launch. Specify a port if you haven't already in the options file 
+```powershell
+Multichaind chain1 -d
+```
+
 To be updated
+
+# Links
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ii-templates
+
+https://discord.gg/cFcvHDj
