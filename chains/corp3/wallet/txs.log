@@ -1,0 +1,80 @@
+2018-05-01 00:17:33	Initialized. Chain height: -1, Txs: 0
+2018-05-01 00:17:34	Entity (00000101, 0000000000000000000000000000000000000000) added successfully
+2018-05-01 00:17:34	Entity (00000201, 0000000000000000000000000000000000000000) added successfully
+2018-05-01 00:17:34	Entity (00000102, 0000000000000000000000000000000000000000) added successfully
+2018-05-01 00:17:34	Entity (00000202, 0000000000000000000000000000000000000000) added successfully
+2018-05-01 00:17:34	Entity (00000103, 2d64a9d9ae40c48da61662ca21a988bcde50149a) added successfully
+2018-05-01 00:17:34	Entity (00000203, 2d64a9d9ae40c48da61662ca21a988bcde50149a) added successfully
+2018-05-01 00:17:34	Entity (00000105, 00000000cf484a13c973b6fec83d9a7cc06e46fb) added successfully
+2018-05-01 00:17:34	Entity (00000205, 00000000cf484a13c973b6fec83d9a7cc06e46fb) added successfully
+2018-05-01 00:17:34	Entity (00000106, 00000000cf484a13c973b6fec83d9a7cc06e46fb) added successfully
+2018-05-01 00:17:34	Entity (00000206, 00000000cf484a13c973b6fec83d9a7cc06e46fb) added successfully
+2018-05-01 00:17:34	Entity (00000107, 00000000cf484a13c973b6fec83d9a7cc06e46fb) added successfully
+2018-05-01 00:17:34	Entity (00000207, 00000000cf484a13c973b6fec83d9a7cc06e46fb) added successfully
+2018-05-01 00:17:34	NewBlock 0, Txs: 0, Rows: 0
+2018-05-01 00:17:34	NewTx 7597491019f53c5ae0c310b666ed02b8c62e966a460067b6916407b31d7b073f, block 1, flags 00000006, import 0
+2018-05-01 00:17:34	NewBlock 1, Txs: 1, Rows: 6
+2018-05-01 00:17:34	NewBlock 2, Txs: 0, Rows: 0
+2018-05-01 00:17:42	NewBlock 3, Txs: 0, Rows: 0
+2018-05-01 00:17:59	NewBlock 4, Txs: 0, Rows: 0
+2018-05-01 00:18:10	NewBlock 5, Txs: 0, Rows: 0
+2018-05-01 00:18:30	NewBlock 6, Txs: 0, Rows: 0
+2018-05-01 00:19:15	Initialized. Chain height: 6, Txs: 1
+2018-05-01 00:19:23	NewBlock 7, Txs: 0, Rows: 0
+2018-05-01 00:19:40	NewBlock 8, Txs: 0, Rows: 0
+2018-05-01 00:29:35	Initialized. Chain height: 8, Txs: 1
+2018-05-01 00:29:43	NewBlock 9, Txs: 0, Rows: 0
+2018-05-01 00:30:00	NewBlock 10, Txs: 0, Rows: 0
+2018-05-01 00:30:11	NewBlock 11, Txs: 0, Rows: 0
+2018-05-01 00:30:31	Initialized. Chain height: 11, Txs: 1
+2018-05-01 00:30:40	NewBlock 12, Txs: 0, Rows: 0
+2018-05-01 00:30:56	NewBlock 13, Txs: 0, Rows: 0
+2018-05-01 00:31:08	NewBlock 14, Txs: 0, Rows: 0
+2018-05-01 00:31:28	NewBlock 15, Txs: 0, Rows: 0
+2018-05-01 00:31:44	NewBlock 16, Txs: 0, Rows: 0
+2018-05-01 00:32:00	NewBlock 17, Txs: 0, Rows: 0
+2018-05-01 00:32:13	NewBlock 18, Txs: 0, Rows: 0
+2018-05-01 00:32:34	NewBlock 19, Txs: 0, Rows: 0
+2018-05-01 00:32:54	NewBlock 20, Txs: 0, Rows: 0
+2018-05-01 00:33:13	NewBlock 21, Txs: 0, Rows: 0
+2018-05-01 00:33:25	NewBlock 22, Txs: 0, Rows: 0
+2018-05-01 00:33:46	NewBlock 23, Txs: 0, Rows: 0
+2018-05-01 00:33:57	NewBlock 24, Txs: 0, Rows: 0
+2018-05-01 00:34:05	NewBlock 25, Txs: 0, Rows: 0
+2018-05-01 00:34:17	NewBlock 26, Txs: 0, Rows: 0
+2018-05-01 00:34:29	NewBlock 27, Txs: 0, Rows: 0
+2018-05-01 00:34:45	NewBlock 28, Txs: 0, Rows: 0
+2018-05-01 00:35:04	NewBlock 29, Txs: 0, Rows: 0
+2018-05-01 00:35:16	NewBlock 30, Txs: 0, Rows: 0
+2018-05-01 00:35:32	NewBlock 31, Txs: 0, Rows: 0
+2018-05-01 00:35:59	NewBlock 32, Txs: 0, Rows: 0
+2018-05-01 00:36:06	NewBlock 33, Txs: 0, Rows: 0
+2018-05-01 00:36:15	NewBlock 34, Txs: 0, Rows: 0
+2018-05-01 00:36:28	NewBlock 35, Txs: 0, Rows: 0
+2018-05-01 00:36:42	NewBlock 36, Txs: 0, Rows: 0
+2018-05-01 00:37:01	NewBlock 37, Txs: 0, Rows: 0
+2018-05-01 00:37:17	NewBlock 38, Txs: 0, Rows: 0
+2018-05-01 00:37:34	NewBlock 39, Txs: 0, Rows: 0
+2018-05-01 00:37:50	NewBlock 40, Txs: 0, Rows: 0
+2018-05-01 00:38:05	NewBlock 41, Txs: 0, Rows: 0
+2018-05-01 00:38:14	NewBlock 42, Txs: 0, Rows: 0
+2018-05-01 01:08:45	Initialized. Chain height: 42, Txs: 1
+2018-05-01 01:08:53	NewBlock 43, Txs: 0, Rows: 0
+2018-05-01 01:09:10	NewBlock 44, Txs: 0, Rows: 0
+2018-05-01 01:09:21	NewBlock 45, Txs: 0, Rows: 0
+2018-05-01 01:09:41	NewBlock 46, Txs: 0, Rows: 0
+2018-05-01 01:09:57	NewBlock 47, Txs: 0, Rows: 0
+2018-05-01 01:10:13	NewBlock 48, Txs: 0, Rows: 0
+2018-05-01 01:10:26	NewBlock 49, Txs: 0, Rows: 0
+2018-05-01 01:10:47	NewBlock 50, Txs: 0, Rows: 0
+2018-05-01 01:11:07	NewBlock 51, Txs: 0, Rows: 0
+2018-05-01 01:11:26	NewBlock 52, Txs: 0, Rows: 0
+2018-05-01 01:11:37	NewBlock 53, Txs: 0, Rows: 0
+2018-05-01 01:11:58	NewBlock 54, Txs: 0, Rows: 0
+2018-05-01 01:12:09	NewBlock 55, Txs: 0, Rows: 0
+2018-05-01 01:12:18	NewBlock 56, Txs: 0, Rows: 0
+2018-05-01 01:12:30	NewBlock 57, Txs: 0, Rows: 0
+2018-05-01 01:12:41	NewBlock 58, Txs: 0, Rows: 0
+2018-05-01 01:12:57	NewBlock 59, Txs: 0, Rows: 0
+2018-05-01 01:28:33	Initialized. Chain height: 59, Txs: 1
+2018-05-01 01:52:51	Initialized. Chain height: 59, Txs: 1

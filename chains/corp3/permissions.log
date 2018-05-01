@@ -1,0 +1,85 @@
+2018-05-01 00:17:33	Initialized: Admin count: 0, Miner count: 0, ledger rows: 1
+2018-05-01 00:17:34	Grant: (00000000-de50149a-00000001-de50149a) (0--1, 1525148253), In consensus: 1, Admin count: 0, Miner count: 0
+2018-05-01 00:17:34	Grant: (00000000-de50149a-00000002-de50149a) (0--1, 1525148253), In consensus: 1, Admin count: 0, Miner count: 0
+2018-05-01 00:17:34	Grant: (00000000-de50149a-00000004-de50149a) (0--1, 1525148253), In consensus: 1, Admin count: 0, Miner count: 0
+2018-05-01 00:17:34	Grant: (00000000-de50149a-00000020-de50149a) (0--1, 1525148253), In consensus: 1, Admin count: 0, Miner count: 0
+2018-05-01 00:17:34	Grant: (00000000-de50149a-00000010-de50149a) (0--1, 1525148253), In consensus: 1, Admin count: 0, Miner count: 0
+2018-05-01 00:17:34	Grant: (00000000-de50149a-00002000-de50149a) (0--1, 1525148253), In consensus: 1, Admin count: 0, Miner count: 0
+2018-05-01 00:17:34	Grant: (00000000-de50149a-00000100-de50149a) (0--1, 1525148253), In consensus: 1, Admin count: 0, Miner count: 1
+2018-05-01 00:17:34	Grant: (00000000-de50149a-00001000-de50149a) (0--1, 1525148253), In consensus: 1, Admin count: 1, Miner count: 1
+2018-05-01 00:17:34	Grant: (c4a047f0-00000000-00000001-de50149a) (0--1, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2018-05-01 00:17:34	Grant: (c4a047f0-de50149a-00000008-de50149a) (0--1, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2018-05-01 00:17:34	Grant: (c4a047f0-de50149a-00002000-de50149a) (0--1, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2018-05-01 00:17:34	Grant: (c4a047f0-de50149a-00001000-de50149a) (0--1, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2018-05-01 00:17:34	Block commit:         0 (Hash: 3a4a395b, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 15
+2018-05-01 00:17:34	Block commit:         1 (Hash: e403f9e7, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 17
+2018-05-01 00:17:34	Block commit:         2 (Hash: 581b1558, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 19
+2018-05-01 00:17:42	Block commit:         3 (Hash: 23b13e37, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 21
+2018-05-01 00:17:59	Block commit:         4 (Hash: 82dfc604, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 23
+2018-05-01 00:18:10	Block commit:         5 (Hash: 9fab1e8d, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 25
+2018-05-01 00:18:30	Block commit:         6 (Hash: 7e168f3f, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 27
+2018-05-01 00:19:15	Initialized: Admin count: 1, Miner count: 1, ledger rows: 27
+2018-05-01 00:19:15	Block rollback:         6, Admin count: 1, Miner count: 1, Ledger Rows: 27
+2018-05-01 00:19:23	Block commit:         7 (Hash: 6128dda7, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 29
+2018-05-01 00:19:40	Block commit:         8 (Hash: 27a97550, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 31
+2018-05-01 00:29:34	Initialized: Admin count: 1, Miner count: 1, ledger rows: 31
+2018-05-01 00:29:35	Block rollback:         8, Admin count: 1, Miner count: 1, Ledger Rows: 31
+2018-05-01 00:29:43	Block commit:         9 (Hash: 0681253e, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 33
+2018-05-01 00:30:00	Block commit:        10 (Hash: 120afef0, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 35
+2018-05-01 00:30:11	Block commit:        11 (Hash: 11866b5c, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 37
+2018-05-01 00:30:31	Initialized: Admin count: 1, Miner count: 1, ledger rows: 37
+2018-05-01 00:30:32	Block rollback:        11, Admin count: 1, Miner count: 1, Ledger Rows: 37
+2018-05-01 00:30:40	Block commit:        12 (Hash: db7070ff, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 39
+2018-05-01 00:30:56	Block commit:        13 (Hash: 22a9cd63, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 41
+2018-05-01 00:31:08	Block commit:        14 (Hash: b1af7ac0, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 43
+2018-05-01 00:31:28	Block commit:        15 (Hash: ad4ec4f1, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 45
+2018-05-01 00:31:44	Block commit:        16 (Hash: 6e2bde1e, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 47
+2018-05-01 00:32:00	Block commit:        17 (Hash: 2f6a6140, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 49
+2018-05-01 00:32:13	Block commit:        18 (Hash: 2f0da70b, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 51
+2018-05-01 00:32:34	Block commit:        19 (Hash: 4d403d24, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 53
+2018-05-01 00:32:54	Block commit:        20 (Hash: a0cc9303, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 55
+2018-05-01 00:33:13	Block commit:        21 (Hash: 5cfb4d14, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 57
+2018-05-01 00:33:25	Block commit:        22 (Hash: 1a7bd135, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 59
+2018-05-01 00:33:46	Block commit:        23 (Hash: b94b606d, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 61
+2018-05-01 00:33:57	Block commit:        24 (Hash: 5e4bca30, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 63
+2018-05-01 00:34:05	Block commit:        25 (Hash: 661089c7, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 65
+2018-05-01 00:34:17	Block commit:        26 (Hash: 08252370, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 67
+2018-05-01 00:34:29	Block commit:        27 (Hash: ce3dcaa4, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 69
+2018-05-01 00:34:45	Block commit:        28 (Hash: 911e5efb, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 71
+2018-05-01 00:35:04	Block commit:        29 (Hash: 39ee653f, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 73
+2018-05-01 00:35:16	Block commit:        30 (Hash: 21517eb2, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 75
+2018-05-01 00:35:32	Block commit:        31 (Hash: 1018c216, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 77
+2018-05-01 00:35:59	Block commit:        32 (Hash: 9957d537, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 79
+2018-05-01 00:36:06	Block commit:        33 (Hash: e7342311, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 81
+2018-05-01 00:36:15	Block commit:        34 (Hash: c785fdd5, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 83
+2018-05-01 00:36:28	Block commit:        35 (Hash: fcf1552a, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 85
+2018-05-01 00:36:42	Block commit:        36 (Hash: 5df8cd15, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 87
+2018-05-01 00:37:01	Block commit:        37 (Hash: 1bb6ffff, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 89
+2018-05-01 00:37:17	Block commit:        38 (Hash: ac13267c, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 91
+2018-05-01 00:37:34	Block commit:        39 (Hash: 699cd97d, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 93
+2018-05-01 00:37:50	Block commit:        40 (Hash: 2599346b, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 95
+2018-05-01 00:38:05	Block commit:        41 (Hash: 3cfed025, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 97
+2018-05-01 00:38:14	Block commit:        42 (Hash: 04a96423, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 99
+2018-05-01 01:08:45	Initialized: Admin count: 1, Miner count: 1, ledger rows: 99
+2018-05-01 01:08:45	Block rollback:        42, Admin count: 1, Miner count: 1, Ledger Rows: 99
+2018-05-01 01:08:53	Block commit:        43 (Hash: 8fa3f1c9, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 101
+2018-05-01 01:09:10	Block commit:        44 (Hash: 144e17fd, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 103
+2018-05-01 01:09:21	Block commit:        45 (Hash: d4ddfe17, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 105
+2018-05-01 01:09:41	Block commit:        46 (Hash: 82421c33, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 107
+2018-05-01 01:09:57	Block commit:        47 (Hash: 7b7959e9, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 109
+2018-05-01 01:10:13	Block commit:        48 (Hash: b8e4ba2c, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 111
+2018-05-01 01:10:26	Block commit:        49 (Hash: 2ef94a7b, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 113
+2018-05-01 01:10:47	Block commit:        50 (Hash: 8ae4995c, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 115
+2018-05-01 01:11:07	Block commit:        51 (Hash: 1f7098fa, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 117
+2018-05-01 01:11:26	Block commit:        52 (Hash: ebf16428, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 119
+2018-05-01 01:11:37	Block commit:        53 (Hash: d2034e77, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 121
+2018-05-01 01:11:58	Block commit:        54 (Hash: b7a3b172, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 123
+2018-05-01 01:12:09	Block commit:        55 (Hash: 52ace1b3, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 125
+2018-05-01 01:12:18	Block commit:        56 (Hash: 94eabd44, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 127
+2018-05-01 01:12:30	Block commit:        57 (Hash: d385a339, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 129
+2018-05-01 01:12:41	Block commit:        58 (Hash: 71f5cde4, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 131
+2018-05-01 01:12:57	Block commit:        59 (Hash: a10a9ac7, Miner: de50149a), Admin count: 1, Miner count: 1, Ledger Rows: 133
+2018-05-01 01:28:32	Initialized: Admin count: 1, Miner count: 1, ledger rows: 133
+2018-05-01 01:28:33	Block rollback:        59, Admin count: 1, Miner count: 1, Ledger Rows: 133
+2018-05-01 01:52:51	Initialized: Admin count: 1, Miner count: 1, ledger rows: 133
+2018-05-01 01:52:51	Block rollback:        59, Admin count: 1, Miner count: 1, Ledger Rows: 133

@@ -1,0 +1,828 @@
+2018-05-01 04:17:33 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-01 04:17:33 MultiChain version build 1.0.4 protocol 10010 (May  1 2017, 09:50:11)
+2018-05-01 04:17:33 Using OpenSSL version OpenSSL 1.0.1k 8 Jan 2015
+2018-05-01 04:17:33 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-05-01 04:17:33 Default data directory C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9
+2018-05-01 04:17:33 Using data directory C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9
+2018-05-01 04:17:33 Using config file C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\corp9.conf
+2018-05-01 04:17:33 Using at most 125 connections (2048 file descriptors available)
+2018-05-01 04:17:33 Using 8 threads for script verification
+2018-05-01 04:17:33 Using wallet wallet.dat
+2018-05-01 04:17:33 init message: Verifying wallet...
+2018-05-01 04:17:33 CDBEnv::Open : LogDir=C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\database ErrorFile=C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\db.log
+2018-05-01 04:17:33 init message: Initializing multichain...
+2018-05-01 04:17:34 nFileVersion = 100000
+2018-05-01 04:17:34 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2018-05-01 04:17:34 mchn: Default key is not found - creating new... 
+2018-05-01 04:17:34 keypool added key 1, size=1
+2018-05-01 04:17:34 keypool added key 2, size=2
+2018-05-01 04:17:34 mchn: Parameter set is new, THIS IS GENESIS NODE - looking for genesis block...
+2018-05-01 04:17:34 mchn: Genesis block found
+2018-05-01 04:17:34 mchn: Parameter set is valid - initializing blockchain parameters...
+2018-05-01 04:17:34 Wallet mode: 00000003
+2018-05-01 04:17:34 Node paused state is set to 00000000
+2018-05-01 04:17:34 Binding RPC on address ::1 port 6470 (IPv4+IPv6 bind any: 0)
+2018-05-01 04:17:34 Binding RPC on address 127.0.0.1 port 6470 (IPv4+IPv6 bind any: 0)
+2018-05-01 04:17:34 Bound to [::]:6471
+2018-05-01 04:17:34 Bound to 0.0.0.0:6471
+2018-05-01 04:17:34 Setting banned transaction list:    0 transactions
+2018-05-01 04:17:34 init message: Loading block index...
+2018-05-01 04:17:34 Opening LevelDB in C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\blocks\index
+2018-05-01 04:17:34 Opened LevelDB successfully
+2018-05-01 04:17:34 Opening LevelDB in C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\chainstate
+2018-05-01 04:17:34 Opened LevelDB successfully
+2018-05-01 04:17:34 nFileVersion = 100000
+2018-05-01 04:17:34 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 04:17:34 LoadBlockIndexDB: last block file = 0
+2018-05-01 04:17:34 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2018-05-01 04:17:34 Checking all blk files are present...
+2018-05-01 04:17:34 LoadBlockIndexDB(): transaction index disabled
+2018-05-01 04:17:34 Initializing databases...
+2018-05-01 04:17:34 Pre-allocating up to position 0x1000000 in blk00000.dat
+2018-05-01 04:17:34 New stream. TxID: 63f19ff922615b3c798a28b72909d0a8d456760c178109ff162853b21709c1f4, StreamRef: 0-81-49652, Name: root
+2018-05-01 04:17:34 UpdateTip:            new best=0012b49c55e6abd56b25c1b7b09a6135e3b7da0f41f8a3d2dfd969edacab42e0  height=0  log2_work=8  tx=1  date=2018-05-01 04:17:34 progress=1.000000  cache=0
+2018-05-01 04:17:34 init message: Verifying blocks...
+2018-05-01 04:17:34  block index             331ms
+2018-05-01 04:17:34 MultiChain protocol version: 10010
+2018-05-01 04:17:34 init message: Loading wallet...
+2018-05-01 04:17:34 nFileVersion = 100000
+2018-05-01 04:17:34 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 04:17:34  wallet                    0ms
+2018-05-01 04:17:34 mapBlockIndex.size() = 1
+2018-05-01 04:17:34 nBestHeight = 0
+2018-05-01 04:17:34 setKeyPool.size() = 1
+2018-05-01 04:17:34 oldWallet.size() = 0
+2018-05-01 04:17:34 mapWallet.size() = 0
+2018-05-01 04:17:34 mapAddressBook.size() = 1
+2018-05-01 04:17:34 init message: Loading addresses...
+2018-05-01 04:17:34 ERROR: Read : Failed to open file C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\peers.dat
+2018-05-01 04:17:34 Invalid or missing peers.dat; recreating
+2018-05-01 04:17:34 Loaded 0 addresses from peers.dat  0ms
+2018-05-01 04:17:34 AddLocal([fe80::c9d:13a8:9c01:cd44]:6471,1)
+2018-05-01 04:17:34 Discover: Tejpal-Nitro - fe80::c9d:13a8:9c01:cd44
+2018-05-01 04:17:34 AddLocal(192.168.0.21:6471,1)
+2018-05-01 04:17:34 Discover: Tejpal-Nitro - 192.168.0.21
+2018-05-01 04:17:34 AddLocal([2001:0:5ef5:79fb:c9d:13a8:9c01:cd44]:6471,1)
+2018-05-01 04:17:34 Discover: Tejpal-Nitro - 2001:0:5ef5:79fb:c9d:13a8:9c01:cd44
+2018-05-01 04:17:34 dnsseed thread start
+2018-05-01 04:17:34 Loading addresses from DNS seeds (could take a while)
+2018-05-01 04:17:34 net thread start
+2018-05-01 04:17:34 addcon thread start
+2018-05-01 04:17:34 opencon thread start
+2018-05-01 04:17:34 init message: Done loading
+2018-05-01 04:17:34 msghand thread start
+2018-05-01 04:17:34 dumpaddr thread start
+2018-05-01 04:17:34 MultiChainMiner started
+2018-05-01 04:17:34 0 addresses found from DNS seeds
+2018-05-01 04:17:34 dnsseed thread exit
+2018-05-01 04:17:34 MultiChainMiner: Block Found - 00348ecc157ebdbbca62c9248dd448de7f01cef8d235639bda9ebd1a2e74e979, prev: 0012b49c55e6abd56b25c1b7b09a6135e3b7da0f41f8a3d2dfd969edacab42e0, height: 1, txs: 1
+2018-05-01 04:17:34 Node started
+2018-05-01 04:17:34 Pre-allocating up to position 0x100000 in rev00000.dat
+2018-05-01 04:17:35 UpdateTip:            new best=00348ecc157ebdbbca62c9248dd448de7f01cef8d235639bda9ebd1a2e74e979  height=1  log2_work=9  tx=2  date=2018-05-01 04:17:35 progress=1.000000  cache=0
+2018-05-01 04:17:35 MultiChainMiner: Block Found - 00da440d2679a8bdb6645eec4bf5806fe1b369bb8fd64ee99f7cc59249333bbc, prev: 00348ecc157ebdbbca62c9248dd448de7f01cef8d235639bda9ebd1a2e74e979, height: 2, txs: 1
+2018-05-01 04:17:35 UpdateTip:            new best=00da440d2679a8bdb6645eec4bf5806fe1b369bb8fd64ee99f7cc59249333bbc  height=2  log2_work=9.5849625  tx=3  date=2018-05-01 04:17:36 progress=1.000000  cache=0
+2018-05-01 04:17:42 MultiChainMiner: Block Found - 006ec884dc0f436c13bf000d716ca3032d200a62a53a7a72e7026ae561f64706, prev: 00da440d2679a8bdb6645eec4bf5806fe1b369bb8fd64ee99f7cc59249333bbc, height: 3, txs: 1
+2018-05-01 04:17:42 UpdateTip:            new best=006ec884dc0f436c13bf000d716ca3032d200a62a53a7a72e7026ae561f64706  height=3  log2_work=10  tx=4  date=2018-05-01 04:17:42 progress=1.000000  cache=0
+2018-05-01 04:17:59 MultiChainMiner: Block Found - 004e8f63cd2513334fc2abc17ba7cb2a6f52d90f9fd923061fa6be44a1b97efc, prev: 006ec884dc0f436c13bf000d716ca3032d200a62a53a7a72e7026ae561f64706, height: 4, txs: 1
+2018-05-01 04:17:59 UpdateTip:            new best=004e8f63cd2513334fc2abc17ba7cb2a6f52d90f9fd923061fa6be44a1b97efc  height=4  log2_work=10.321928  tx=5  date=2018-05-01 04:17:59 progress=1.000000  cache=0
+2018-05-01 04:18:10 MultiChainMiner: Block Found - 00597d19fdd64c67d8efa2f7c9db428c8f5ee22a680565141e73fdd1c943ccb9, prev: 004e8f63cd2513334fc2abc17ba7cb2a6f52d90f9fd923061fa6be44a1b97efc, height: 5, txs: 1
+2018-05-01 04:18:10 UpdateTip:            new best=00597d19fdd64c67d8efa2f7c9db428c8f5ee22a680565141e73fdd1c943ccb9  height=5  log2_work=10.584963  tx=6  date=2018-05-01 04:18:10 progress=1.000000  cache=0
+2018-05-01 04:18:31 MultiChainMiner: Block Found - 00ea5a35d20fcde4b424296ed96a62a5cb69f86ea65247314980f72543a704be, prev: 00597d19fdd64c67d8efa2f7c9db428c8f5ee22a680565141e73fdd1c943ccb9, height: 6, txs: 1
+2018-05-01 04:18:31 UpdateTip:            new best=00ea5a35d20fcde4b424296ed96a62a5cb69f86ea65247314980f72543a704be  height=6  log2_work=10.807355  tx=7  date=2018-05-01 04:18:31 progress=1.000000  cache=0
+2018-05-01 04:18:35 Adding fixed seed nodes as DNS doesn't seem to be available.
+2018-05-01 04:18:42 opencon thread interrupt
+2018-05-01 04:18:42 addcon thread interrupt
+2018-05-01 04:18:42 dumpaddr thread stop
+2018-05-01 04:18:42 msghand thread interrupt
+2018-05-01 04:18:42 net thread interrupt
+2018-05-01 04:18:42 Shutdown: In progress...
+2018-05-01 04:18:42 RPCAcceptHandler: Error: The I/O operation has been aborted because of either a thread exit or an application request
+2018-05-01 04:18:42 RPCAcceptHandler: Error: The I/O operation has been aborted because of either a thread exit or an application request
+2018-05-01 04:18:43 MultiChainMiner terminated
+2018-05-01 04:18:43 StopNode()
+2018-05-01 04:18:43 Node stopped
+2018-05-01 04:18:43 Shutdown: done
+2018-05-01 04:19:15 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-01 04:19:15 MultiChain version build 1.0.4 protocol 10010 (May  1 2017, 09:50:11)
+2018-05-01 04:19:15 Using OpenSSL version OpenSSL 1.0.1k 8 Jan 2015
+2018-05-01 04:19:15 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-05-01 04:19:15 Default data directory C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9
+2018-05-01 04:19:15 Using data directory C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9
+2018-05-01 04:19:15 Using config file C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\corp9.conf
+2018-05-01 04:19:15 Using at most 125 connections (2048 file descriptors available)
+2018-05-01 04:19:15 Using 8 threads for script verification
+2018-05-01 04:19:15 Using wallet wallet.dat
+2018-05-01 04:19:15 init message: Verifying wallet...
+2018-05-01 04:19:15 CDBEnv::Open : LogDir=C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\database ErrorFile=C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\db.log
+2018-05-01 04:19:15 init message: Initializing multichain...
+2018-05-01 04:19:15 mchn: Parameter set is valid - initializing blockchain parameters...
+2018-05-01 04:19:15 Wallet mode: 00000003
+2018-05-01 04:19:15 nFileVersion = 100000
+2018-05-01 04:19:15 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 04:19:16 Node paused state is set to 00000000
+2018-05-01 04:19:16 Binding RPC on address ::1 port 6470 (IPv4+IPv6 bind any: 0)
+2018-05-01 04:19:16 Binding RPC on address 127.0.0.1 port 6470 (IPv4+IPv6 bind any: 0)
+2018-05-01 04:19:16 Bound to [::]:6471
+2018-05-01 04:19:16 Bound to 0.0.0.0:6471
+2018-05-01 04:19:16 Setting banned transaction list:    0 transactions
+2018-05-01 04:19:16 init message: Loading block index...
+2018-05-01 04:19:16 Opening LevelDB in C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\blocks\index
+2018-05-01 04:19:16 Opened LevelDB successfully
+2018-05-01 04:19:16 Opening LevelDB in C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\chainstate
+2018-05-01 04:19:16 Opened LevelDB successfully
+2018-05-01 04:19:16 nFileVersion = 100000
+2018-05-01 04:19:16 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 04:19:16 LoadBlockIndexDB: last block file = 0
+2018-05-01 04:19:16 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=7, size=1917, heights=0...6, time=2018-05-01...2018-05-01)
+2018-05-01 04:19:16 Checking all blk files are present...
+2018-05-01 04:19:16 LoadBlockIndexDB(): transaction index enabled
+2018-05-01 04:19:16 LoadBlockIndexDB(): hashBestChain=00ea5a35d20fcde4b424296ed96a62a5cb69f86ea65247314980f72543a704be height=6 date=2018-05-01 04:18:31 progress=1.000000
+2018-05-01 04:19:16 init message: Verifying blocks...
+2018-05-01 04:19:16 Verifying last 6 blocks at level 3
+2018-05-01 04:19:16 No coin database inconsistencies in last 6 blocks (6 transactions)
+2018-05-01 04:19:16  block index             131ms
+2018-05-01 04:19:16 MultiChain protocol version: 10010
+2018-05-01 04:19:16 init message: Loading wallet...
+2018-05-01 04:19:16 nFileVersion = 100000
+2018-05-01 04:19:16 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 04:19:16  wallet                    0ms
+2018-05-01 04:19:16 mapBlockIndex.size() = 7
+2018-05-01 04:19:16 nBestHeight = 6
+2018-05-01 04:19:16 setKeyPool.size() = 1
+2018-05-01 04:19:16 oldWallet.size() = 0
+2018-05-01 04:19:16 mapWallet.size() = 1
+2018-05-01 04:19:16 mapAddressBook.size() = 1
+2018-05-01 04:19:16 init message: Loading addresses...
+2018-05-01 04:19:16 Loaded 0 addresses from peers.dat  0ms
+2018-05-01 04:19:16 AddLocal([fe80::c9d:13a8:9c01:cd44]:6471,1)
+2018-05-01 04:19:16 Discover: Tejpal-Nitro - fe80::c9d:13a8:9c01:cd44
+2018-05-01 04:19:16 AddLocal(192.168.0.21:6471,1)
+2018-05-01 04:19:16 Discover: Tejpal-Nitro - 192.168.0.21
+2018-05-01 04:19:16 AddLocal([2001:0:5ef5:79fb:c9d:13a8:9c01:cd44]:6471,1)
+2018-05-01 04:19:16 Discover: Tejpal-Nitro - 2001:0:5ef5:79fb:c9d:13a8:9c01:cd44
+2018-05-01 04:19:16 dnsseed thread start
+2018-05-01 04:19:16 init message: Done loading
+2018-05-01 04:19:16 msghand thread start
+2018-05-01 04:19:16 addcon thread start
+2018-05-01 04:19:16 opencon thread start
+2018-05-01 04:19:16 Loading addresses from DNS seeds (could take a while)
+2018-05-01 04:19:16 0 addresses found from DNS seeds
+2018-05-01 04:19:16 dnsseed thread exit
+2018-05-01 04:19:16 MultiChainMiner started
+2018-05-01 04:19:16 dumpaddr thread start
+2018-05-01 04:19:16 net thread start
+2018-05-01 04:19:16 Node started
+2018-05-01 04:19:23 MultiChainMiner: Block Found - 005b848ba99e8f4b3d835ea05cd14948d9b5bf50afe0fa788e2321507fec792d, prev: 00ea5a35d20fcde4b424296ed96a62a5cb69f86ea65247314980f72543a704be, height: 7, txs: 1
+2018-05-01 04:19:24 UpdateTip:            new best=005b848ba99e8f4b3d835ea05cd14948d9b5bf50afe0fa788e2321507fec792d  height=7  log2_work=11  tx=8  date=2018-05-01 04:19:23 progress=1.000000  cache=0
+2018-05-01 04:19:40 MultiChainMiner: Block Found - 00e437c9a8b5c6d863b805a6ee2d73a1fc465d7b8ccca1037014991722bc8d11, prev: 005b848ba99e8f4b3d835ea05cd14948d9b5bf50afe0fa788e2321507fec792d, height: 8, txs: 1
+2018-05-01 04:19:40 UpdateTip:            new best=00e437c9a8b5c6d863b805a6ee2d73a1fc465d7b8ccca1037014991722bc8d11  height=8  log2_work=11.169925  tx=9  date=2018-05-01 04:19:40 progress=1.000000  cache=0
+2018-05-01 04:19:42 dumpaddr thread stop
+2018-05-01 04:19:42 addcon thread interrupt
+2018-05-01 04:19:42 opencon thread interrupt
+2018-05-01 04:19:42 msghand thread interrupt
+2018-05-01 04:19:42 net thread interrupt
+2018-05-01 04:19:42 Shutdown: In progress...
+2018-05-01 04:19:42 RPCAcceptHandler: Error: The I/O operation has been aborted because of either a thread exit or an application request
+2018-05-01 04:19:42 RPCAcceptHandler: Error: The I/O operation has been aborted because of either a thread exit or an application request
+2018-05-01 04:19:43 MultiChainMiner terminated
+2018-05-01 04:19:43 StopNode()
+2018-05-01 04:19:43 Node stopped
+2018-05-01 04:19:43 Shutdown: done
+2018-05-01 04:29:35 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-01 04:29:35 MultiChain version build 1.0.4 protocol 10010 (May  1 2017, 09:50:11)
+2018-05-01 04:29:35 Using OpenSSL version OpenSSL 1.0.1k 8 Jan 2015
+2018-05-01 04:29:35 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-05-01 04:29:35 Default data directory C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9
+2018-05-01 04:29:35 Using data directory C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9
+2018-05-01 04:29:35 Using config file C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\corp9.conf
+2018-05-01 04:29:35 Using at most 125 connections (2048 file descriptors available)
+2018-05-01 04:29:35 Using 8 threads for script verification
+2018-05-01 04:29:35 Using wallet wallet.dat
+2018-05-01 04:29:35 init message: Verifying wallet...
+2018-05-01 04:29:35 CDBEnv::Open : LogDir=C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\database ErrorFile=C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\db.log
+2018-05-01 04:29:35 init message: Initializing multichain...
+2018-05-01 04:29:35 mchn: Parameter set is valid - initializing blockchain parameters...
+2018-05-01 04:29:35 Wallet mode: 00000003
+2018-05-01 04:29:35 nFileVersion = 100000
+2018-05-01 04:29:35 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 04:29:35 Node paused state is set to 00000000
+2018-05-01 04:29:35 Binding RPC on address ::1 port 6470 (IPv4+IPv6 bind any: 0)
+2018-05-01 04:29:35 Binding RPC on address 127.0.0.1 port 6470 (IPv4+IPv6 bind any: 0)
+2018-05-01 04:29:35 Bound to [::]:6471
+2018-05-01 04:29:35 Bound to 0.0.0.0:6471
+2018-05-01 04:29:35 Setting banned transaction list:    0 transactions
+2018-05-01 04:29:35 init message: Loading block index...
+2018-05-01 04:29:35 Opening LevelDB in C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\blocks\index
+2018-05-01 04:29:35 Opened LevelDB successfully
+2018-05-01 04:29:35 Opening LevelDB in C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\chainstate
+2018-05-01 04:29:35 Opened LevelDB successfully
+2018-05-01 04:29:35 nFileVersion = 100000
+2018-05-01 04:29:35 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 04:29:35 LoadBlockIndexDB: last block file = 0
+2018-05-01 04:29:35 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=9, size=2462, heights=0...8, time=2018-05-01...2018-05-01)
+2018-05-01 04:29:35 Checking all blk files are present...
+2018-05-01 04:29:35 LoadBlockIndexDB(): transaction index enabled
+2018-05-01 04:29:35 LoadBlockIndexDB(): hashBestChain=00e437c9a8b5c6d863b805a6ee2d73a1fc465d7b8ccca1037014991722bc8d11 height=8 date=2018-05-01 04:19:40 progress=1.000000
+2018-05-01 04:29:35 init message: Verifying blocks...
+2018-05-01 04:29:35 Verifying last 8 blocks at level 3
+2018-05-01 04:29:35 No coin database inconsistencies in last 8 blocks (8 transactions)
+2018-05-01 04:29:35  block index              63ms
+2018-05-01 04:29:35 MultiChain protocol version: 10010
+2018-05-01 04:29:35 init message: Loading wallet...
+2018-05-01 04:29:35 nFileVersion = 100000
+2018-05-01 04:29:35 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 04:29:35  wallet                    1ms
+2018-05-01 04:29:35 mapBlockIndex.size() = 9
+2018-05-01 04:29:35 nBestHeight = 8
+2018-05-01 04:29:35 setKeyPool.size() = 1
+2018-05-01 04:29:35 oldWallet.size() = 0
+2018-05-01 04:29:35 mapWallet.size() = 1
+2018-05-01 04:29:35 mapAddressBook.size() = 1
+2018-05-01 04:29:35 init message: Loading addresses...
+2018-05-01 04:29:35 Loaded 0 addresses from peers.dat  0ms
+2018-05-01 04:29:35 AddLocal([fe80::c9d:13a8:9c01:cd44]:6471,1)
+2018-05-01 04:29:35 Discover: Tejpal-Nitro - fe80::c9d:13a8:9c01:cd44
+2018-05-01 04:29:35 AddLocal(192.168.0.21:6471,1)
+2018-05-01 04:29:35 Discover: Tejpal-Nitro - 192.168.0.21
+2018-05-01 04:29:35 AddLocal([2001:0:5ef5:79fb:c9d:13a8:9c01:cd44]:6471,1)
+2018-05-01 04:29:35 Discover: Tejpal-Nitro - 2001:0:5ef5:79fb:c9d:13a8:9c01:cd44
+2018-05-01 04:29:35 dnsseed thread start
+2018-05-01 04:29:35 init message: Done loading
+2018-05-01 04:29:35 net thread start
+2018-05-01 04:29:35 addcon thread start
+2018-05-01 04:29:35 opencon thread start
+2018-05-01 04:29:35 Loading addresses from DNS seeds (could take a while)
+2018-05-01 04:29:35 msghand thread start
+2018-05-01 04:29:35 dumpaddr thread start
+2018-05-01 04:29:35 MultiChainMiner started
+2018-05-01 04:29:35 0 addresses found from DNS seeds
+2018-05-01 04:29:35 dnsseed thread exit
+2018-05-01 04:29:35 Node started
+2018-05-01 04:29:43 MultiChainMiner: Block Found - 005ca8ea2d0712a2e783acf71fd4fe567d602cc086be30d741e0e9ba2863094d, prev: 00e437c9a8b5c6d863b805a6ee2d73a1fc465d7b8ccca1037014991722bc8d11, height: 9, txs: 1
+2018-05-01 04:29:43 UpdateTip:            new best=005ca8ea2d0712a2e783acf71fd4fe567d602cc086be30d741e0e9ba2863094d  height=9  log2_work=11.321928  tx=10  date=2018-05-01 04:29:43 progress=1.000000  cache=0
+2018-05-01 04:30:00 MultiChainMiner: Block Found - 008d256f92bed445704aa1888333f8517645ebdba28718ee35249726433c0113, prev: 005ca8ea2d0712a2e783acf71fd4fe567d602cc086be30d741e0e9ba2863094d, height: 10, txs: 1
+2018-05-01 04:30:00 UpdateTip:            new best=008d256f92bed445704aa1888333f8517645ebdba28718ee35249726433c0113  height=10  log2_work=11.459432  tx=11  date=2018-05-01 04:30:00 progress=1.000000  cache=0
+2018-05-01 04:30:11 MultiChainMiner: Block Found - 00def62b03dd641143a1f019cfef299b1687c97b68c2b68b4b9e10895e17961e, prev: 008d256f92bed445704aa1888333f8517645ebdba28718ee35249726433c0113, height: 11, txs: 1
+2018-05-01 04:30:11 UpdateTip:            new best=00def62b03dd641143a1f019cfef299b1687c97b68c2b68b4b9e10895e17961e  height=11  log2_work=11.584963  tx=12  date=2018-05-01 04:30:11 progress=1.000000  cache=0
+2018-05-01 04:30:12 opencon thread interrupt
+2018-05-01 04:30:12 msghand thread interrupt
+2018-05-01 04:30:12 addcon thread interrupt
+2018-05-01 04:30:12 dumpaddr thread stop
+2018-05-01 04:30:12 net thread interrupt
+2018-05-01 04:30:12 Shutdown: In progress...
+2018-05-01 04:30:12 RPCAcceptHandler: Error: The I/O operation has been aborted because of either a thread exit or an application request
+2018-05-01 04:30:12 RPCAcceptHandler: Error: The I/O operation has been aborted because of either a thread exit or an application request
+2018-05-01 04:30:12 MultiChainMiner terminated
+2018-05-01 04:30:12 StopNode()
+2018-05-01 04:30:12 Node stopped
+2018-05-01 04:30:12 Shutdown: done
+2018-05-01 04:30:32 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-01 04:30:32 MultiChain version build 1.0.4 protocol 10010 (May  1 2017, 09:50:11)
+2018-05-01 04:30:32 Using OpenSSL version OpenSSL 1.0.1k 8 Jan 2015
+2018-05-01 04:30:32 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-05-01 04:30:32 Default data directory C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9
+2018-05-01 04:30:32 Using data directory C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9
+2018-05-01 04:30:32 Using config file C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\corp9.conf
+2018-05-01 04:30:32 Using at most 125 connections (2048 file descriptors available)
+2018-05-01 04:30:32 Using 8 threads for script verification
+2018-05-01 04:30:32 Using wallet wallet.dat
+2018-05-01 04:30:32 init message: Verifying wallet...
+2018-05-01 04:30:32 CDBEnv::Open : LogDir=C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\database ErrorFile=C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\db.log
+2018-05-01 04:30:32 init message: Initializing multichain...
+2018-05-01 04:30:32 mchn: Parameter set is valid - initializing blockchain parameters...
+2018-05-01 04:30:32 Wallet mode: 00000003
+2018-05-01 04:30:32 nFileVersion = 100000
+2018-05-01 04:30:32 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 04:30:32 Node paused state is set to 00000000
+2018-05-01 04:30:32 Binding RPC on address ::1 port 6470 (IPv4+IPv6 bind any: 0)
+2018-05-01 04:30:32 Binding RPC on address 127.0.0.1 port 6470 (IPv4+IPv6 bind any: 0)
+2018-05-01 04:30:32 Bound to [::]:6471
+2018-05-01 04:30:32 Bound to 0.0.0.0:6471
+2018-05-01 04:30:32 Setting banned transaction list:    0 transactions
+2018-05-01 04:30:32 init message: Loading block index...
+2018-05-01 04:30:32 Opening LevelDB in C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\blocks\index
+2018-05-01 04:30:32 Opened LevelDB successfully
+2018-05-01 04:30:32 Opening LevelDB in C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\chainstate
+2018-05-01 04:30:32 Opened LevelDB successfully
+2018-05-01 04:30:32 nFileVersion = 100000
+2018-05-01 04:30:32 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 04:30:32 LoadBlockIndexDB: last block file = 0
+2018-05-01 04:30:32 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=12, size=3280, heights=0...11, time=2018-05-01...2018-05-01)
+2018-05-01 04:30:32 Checking all blk files are present...
+2018-05-01 04:30:32 LoadBlockIndexDB(): transaction index enabled
+2018-05-01 04:30:32 LoadBlockIndexDB(): hashBestChain=00def62b03dd641143a1f019cfef299b1687c97b68c2b68b4b9e10895e17961e height=11 date=2018-05-01 04:30:11 progress=1.000000
+2018-05-01 04:30:32 init message: Verifying blocks...
+2018-05-01 04:30:32 Verifying last 11 blocks at level 3
+2018-05-01 04:30:32 No coin database inconsistencies in last 11 blocks (11 transactions)
+2018-05-01 04:30:32  block index              73ms
+2018-05-01 04:30:32 MultiChain protocol version: 10010
+2018-05-01 04:30:32 init message: Loading wallet...
+2018-05-01 04:30:32 nFileVersion = 100000
+2018-05-01 04:30:32 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 04:30:32  wallet                    0ms
+2018-05-01 04:30:32 mapBlockIndex.size() = 12
+2018-05-01 04:30:32 nBestHeight = 11
+2018-05-01 04:30:32 setKeyPool.size() = 1
+2018-05-01 04:30:32 oldWallet.size() = 0
+2018-05-01 04:30:32 mapWallet.size() = 1
+2018-05-01 04:30:32 mapAddressBook.size() = 1
+2018-05-01 04:30:32 init message: Loading addresses...
+2018-05-01 04:30:32 Loaded 0 addresses from peers.dat  0ms
+2018-05-01 04:30:32 AddLocal([fe80::c9d:13a8:9c01:cd44]:6471,1)
+2018-05-01 04:30:32 Discover: Tejpal-Nitro - fe80::c9d:13a8:9c01:cd44
+2018-05-01 04:30:32 AddLocal(192.168.0.21:6471,1)
+2018-05-01 04:30:32 Discover: Tejpal-Nitro - 192.168.0.21
+2018-05-01 04:30:32 AddLocal([2001:0:5ef5:79fb:c9d:13a8:9c01:cd44]:6471,1)
+2018-05-01 04:30:32 Discover: Tejpal-Nitro - 2001:0:5ef5:79fb:c9d:13a8:9c01:cd44
+2018-05-01 04:30:32 init message: Done loading
+2018-05-01 04:30:32 dnsseed thread start
+2018-05-01 04:30:32 net thread start
+2018-05-01 04:30:32 addcon thread start
+2018-05-01 04:30:32 opencon thread start
+2018-05-01 04:30:32 Loading addresses from DNS seeds (could take a while)
+2018-05-01 04:30:32 msghand thread start
+2018-05-01 04:30:32 dumpaddr thread start
+2018-05-01 04:30:32 MultiChainMiner started
+2018-05-01 04:30:32 0 addresses found from DNS seeds
+2018-05-01 04:30:32 dnsseed thread exit
+2018-05-01 04:30:32 Node started
+2018-05-01 04:30:40 MultiChainMiner: Block Found - 005225332ab1e455f0e060cc6d4edc0cd185a7b93fe4afd2851ee88ac2fe8d0b, prev: 00def62b03dd641143a1f019cfef299b1687c97b68c2b68b4b9e10895e17961e, height: 12, txs: 1
+2018-05-01 04:30:40 UpdateTip:            new best=005225332ab1e455f0e060cc6d4edc0cd185a7b93fe4afd2851ee88ac2fe8d0b  height=12  log2_work=11.70044  tx=13  date=2018-05-01 04:30:40 progress=1.000000  cache=0
+2018-05-01 04:30:56 MultiChainMiner: Block Found - 00d82646053c9a62e75a404cc7153dd2edbafd8a7c91e2e0a9734b0148e8bca7, prev: 005225332ab1e455f0e060cc6d4edc0cd185a7b93fe4afd2851ee88ac2fe8d0b, height: 13, txs: 1
+2018-05-01 04:30:57 UpdateTip:            new best=00d82646053c9a62e75a404cc7153dd2edbafd8a7c91e2e0a9734b0148e8bca7  height=13  log2_work=11.807355  tx=14  date=2018-05-01 04:30:56 progress=1.000000  cache=0
+2018-05-01 04:31:08 MultiChainMiner: Block Found - 00da5217138926cef28285df25f3dfb481d08df516073c40b1541a063c2e4790, prev: 00d82646053c9a62e75a404cc7153dd2edbafd8a7c91e2e0a9734b0148e8bca7, height: 14, txs: 1
+2018-05-01 04:31:08 UpdateTip:            new best=00da5217138926cef28285df25f3dfb481d08df516073c40b1541a063c2e4790  height=14  log2_work=11.906891  tx=15  date=2018-05-01 04:31:08 progress=1.000000  cache=0
+2018-05-01 04:31:28 MultiChainMiner: Block Found - 00dbaf86677651f71ff7e66ccb02de809b20ccd21c0ecd78ea49ec4ccaf6f3ba, prev: 00da5217138926cef28285df25f3dfb481d08df516073c40b1541a063c2e4790, height: 15, txs: 1
+2018-05-01 04:31:28 UpdateTip:            new best=00dbaf86677651f71ff7e66ccb02de809b20ccd21c0ecd78ea49ec4ccaf6f3ba  height=15  log2_work=12  tx=16  date=2018-05-01 04:31:28 progress=1.000000  cache=0
+2018-05-01 04:31:33 Adding fixed seed nodes as DNS doesn't seem to be available.
+2018-05-01 04:31:44 MultiChainMiner: Block Found - 00daf3747bf7114ebc03fa3cd038d5a89a54dc18c39c391e48c842ae2163c95e, prev: 00dbaf86677651f71ff7e66ccb02de809b20ccd21c0ecd78ea49ec4ccaf6f3ba, height: 16, txs: 1
+2018-05-01 04:31:44 UpdateTip:            new best=00daf3747bf7114ebc03fa3cd038d5a89a54dc18c39c391e48c842ae2163c95e  height=16  log2_work=12.087463  tx=17  date=2018-05-01 04:31:44 progress=1.000000  cache=0
+2018-05-01 04:32:00 MultiChainMiner: Block Found - 002f1fe7ac61f02d1bc998de041e4f490cfc9b445a7f3cf10ca01bc83753f02e, prev: 00daf3747bf7114ebc03fa3cd038d5a89a54dc18c39c391e48c842ae2163c95e, height: 17, txs: 1
+2018-05-01 04:32:00 UpdateTip:            new best=002f1fe7ac61f02d1bc998de041e4f490cfc9b445a7f3cf10ca01bc83753f02e  height=17  log2_work=12.169925  tx=18  date=2018-05-01 04:32:00 progress=1.000000  cache=0
+2018-05-01 04:32:13 MultiChainMiner: Block Found - 00902ba2a7b5d0e26b9077106600f3bcd1cccbee072ccfd168d66a1b3acbcc21, prev: 002f1fe7ac61f02d1bc998de041e4f490cfc9b445a7f3cf10ca01bc83753f02e, height: 18, txs: 1
+2018-05-01 04:32:14 UpdateTip:            new best=00902ba2a7b5d0e26b9077106600f3bcd1cccbee072ccfd168d66a1b3acbcc21  height=18  log2_work=12.247928  tx=19  date=2018-05-01 04:32:13 progress=1.000000  cache=0
+2018-05-01 04:32:35 MultiChainMiner: Block Found - 0033b0f215ea5d15d65fb1a4f9d6097c36f7b5c3c393ad1e266a84dcd6606db9, prev: 00902ba2a7b5d0e26b9077106600f3bcd1cccbee072ccfd168d66a1b3acbcc21, height: 19, txs: 1
+2018-05-01 04:32:35 UpdateTip:            new best=0033b0f215ea5d15d65fb1a4f9d6097c36f7b5c3c393ad1e266a84dcd6606db9  height=19  log2_work=12.321928  tx=20  date=2018-05-01 04:32:35 progress=1.000000  cache=0
+2018-05-01 04:32:55 MultiChainMiner: Block Found - 00f72cb7014cdfb9b362caa3520b6d47821396a38448ec73c635b2b50b6e8079, prev: 0033b0f215ea5d15d65fb1a4f9d6097c36f7b5c3c393ad1e266a84dcd6606db9, height: 20, txs: 1
+2018-05-01 04:32:55 UpdateTip:            new best=00f72cb7014cdfb9b362caa3520b6d47821396a38448ec73c635b2b50b6e8079  height=20  log2_work=12.392317  tx=21  date=2018-05-01 04:32:55 progress=1.000000  cache=0
+2018-05-01 04:33:14 MultiChainMiner: Block Found - 00992dd6d13a3845ab01d55652acb3785f2c4b8d21e4c4613244704bca8a753f, prev: 00f72cb7014cdfb9b362caa3520b6d47821396a38448ec73c635b2b50b6e8079, height: 21, txs: 1
+2018-05-01 04:33:14 UpdateTip:            new best=00992dd6d13a3845ab01d55652acb3785f2c4b8d21e4c4613244704bca8a753f  height=21  log2_work=12.459432  tx=22  date=2018-05-01 04:33:14 progress=1.000000  cache=0
+2018-05-01 04:33:25 MultiChainMiner: Block Found - 006337d3594ae044a66bcd1625af3efc0dbb5aaacbe3874853a5ba6ba3b1096e, prev: 00992dd6d13a3845ab01d55652acb3785f2c4b8d21e4c4613244704bca8a753f, height: 22, txs: 1
+2018-05-01 04:33:25 UpdateTip:            new best=006337d3594ae044a66bcd1625af3efc0dbb5aaacbe3874853a5ba6ba3b1096e  height=22  log2_work=12.523562  tx=23  date=2018-05-01 04:33:25 progress=1.000000  cache=0
+2018-05-01 04:33:46 MultiChainMiner: Block Found - 00184b0d5306fd8afe4a0aef567c672771de4151a4b1e704b1a099a308acd51d, prev: 006337d3594ae044a66bcd1625af3efc0dbb5aaacbe3874853a5ba6ba3b1096e, height: 23, txs: 1
+2018-05-01 04:33:46 UpdateTip:            new best=00184b0d5306fd8afe4a0aef567c672771de4151a4b1e704b1a099a308acd51d  height=23  log2_work=12.584963  tx=24  date=2018-05-01 04:33:46 progress=1.000000  cache=0
+2018-05-01 04:33:57 MultiChainMiner: Block Found - 00c296f46286b86689dddebd084c404d12881beb405ca902f484f8ac77b9f9e2, prev: 00184b0d5306fd8afe4a0aef567c672771de4151a4b1e704b1a099a308acd51d, height: 24, txs: 1
+2018-05-01 04:33:57 UpdateTip:            new best=00c296f46286b86689dddebd084c404d12881beb405ca902f484f8ac77b9f9e2  height=24  log2_work=12.643856  tx=25  date=2018-05-01 04:33:57 progress=1.000000  cache=0
+2018-05-01 04:34:05 MultiChainMiner: Block Found - 0099bf8a93c0714f844895f7817347cd50114006dd5ecf03224d2a09a26476d6, prev: 00c296f46286b86689dddebd084c404d12881beb405ca902f484f8ac77b9f9e2, height: 25, txs: 1
+2018-05-01 04:34:05 UpdateTip:            new best=0099bf8a93c0714f844895f7817347cd50114006dd5ecf03224d2a09a26476d6  height=25  log2_work=12.70044  tx=26  date=2018-05-01 04:34:05 progress=1.000000  cache=0
+2018-05-01 04:34:17 MultiChainMiner: Block Found - 00e8a68f3015fb1ca9bfb19e0d3cd62b742592ae18edeb8d0c27d85ae5fe3932, prev: 0099bf8a93c0714f844895f7817347cd50114006dd5ecf03224d2a09a26476d6, height: 26, txs: 1
+2018-05-01 04:34:17 UpdateTip:            new best=00e8a68f3015fb1ca9bfb19e0d3cd62b742592ae18edeb8d0c27d85ae5fe3932  height=26  log2_work=12.754888  tx=27  date=2018-05-01 04:34:17 progress=1.000000  cache=0
+2018-05-01 04:34:29 MultiChainMiner: Block Found - 00ca36e42b1e951dae07e2573be379b8512ca3e004e2976f610093931e42734c, prev: 00e8a68f3015fb1ca9bfb19e0d3cd62b742592ae18edeb8d0c27d85ae5fe3932, height: 27, txs: 1
+2018-05-01 04:34:29 UpdateTip:            new best=00ca36e42b1e951dae07e2573be379b8512ca3e004e2976f610093931e42734c  height=27  log2_work=12.807355  tx=28  date=2018-05-01 04:34:29 progress=1.000000  cache=0
+2018-05-01 04:34:45 MultiChainMiner: Block Found - 0058e41abfdcd7674b6bdb1ffb6618164b8101c06dde8df15303c21712b87ad8, prev: 00ca36e42b1e951dae07e2573be379b8512ca3e004e2976f610093931e42734c, height: 28, txs: 1
+2018-05-01 04:34:45 UpdateTip:            new best=0058e41abfdcd7674b6bdb1ffb6618164b8101c06dde8df15303c21712b87ad8  height=28  log2_work=12.857981  tx=29  date=2018-05-01 04:34:45 progress=1.000000  cache=0
+2018-05-01 04:35:04 MultiChainMiner: Block Found - 00daa1765a1c69f5d7130c61d13dbcdc6ac4197736134c5b72e5212fad70a3e8, prev: 0058e41abfdcd7674b6bdb1ffb6618164b8101c06dde8df15303c21712b87ad8, height: 29, txs: 1
+2018-05-01 04:35:04 UpdateTip:            new best=00daa1765a1c69f5d7130c61d13dbcdc6ac4197736134c5b72e5212fad70a3e8  height=29  log2_work=12.906891  tx=30  date=2018-05-01 04:35:04 progress=1.000000  cache=0
+2018-05-01 04:35:16 MultiChainMiner: Block Found - 00ee2f81495ec115e83556c29ebbd0b6df8f4c53bf6534c3b1e33ada5b8c5d8e, prev: 00daa1765a1c69f5d7130c61d13dbcdc6ac4197736134c5b72e5212fad70a3e8, height: 30, txs: 1
+2018-05-01 04:35:16 UpdateTip:            new best=00ee2f81495ec115e83556c29ebbd0b6df8f4c53bf6534c3b1e33ada5b8c5d8e  height=30  log2_work=12.954196  tx=31  date=2018-05-01 04:35:16 progress=1.000000  cache=0
+2018-05-01 04:35:32 MultiChainMiner: Block Found - 008cdc36c977bd0920f79c8ca68bd14f1e2706b1e237a8862cdb9b61ac4c64fc, prev: 00ee2f81495ec115e83556c29ebbd0b6df8f4c53bf6534c3b1e33ada5b8c5d8e, height: 31, txs: 1
+2018-05-01 04:35:32 UpdateTip:            new best=008cdc36c977bd0920f79c8ca68bd14f1e2706b1e237a8862cdb9b61ac4c64fc  height=31  log2_work=13  tx=32  date=2018-05-01 04:35:32 progress=1.000000  cache=0
+2018-05-01 04:35:59 MultiChainMiner: Block Found - 00f5a2c39b169ae068148cab15c3f08f4814c7fca6ef2689fd9942578f1ce57a, prev: 008cdc36c977bd0920f79c8ca68bd14f1e2706b1e237a8862cdb9b61ac4c64fc, height: 32, txs: 1
+2018-05-01 04:35:59 UpdateTip:            new best=00f5a2c39b169ae068148cab15c3f08f4814c7fca6ef2689fd9942578f1ce57a  height=32  log2_work=13.044394  tx=33  date=2018-05-01 04:35:59 progress=1.000000  cache=0
+2018-05-01 04:36:06 MultiChainMiner: Block Found - 007f5127808cc64a71fc23a7433680adbd3801c8a9c3bb9b1855db6f8b603d34, prev: 00f5a2c39b169ae068148cab15c3f08f4814c7fca6ef2689fd9942578f1ce57a, height: 33, txs: 1
+2018-05-01 04:36:06 UpdateTip:            new best=007f5127808cc64a71fc23a7433680adbd3801c8a9c3bb9b1855db6f8b603d34  height=33  log2_work=13.087463  tx=34  date=2018-05-01 04:36:06 progress=1.000000  cache=0
+2018-05-01 04:36:15 MultiChainMiner: Block Found - 0068a60d2e0a9c29737bf8c0545f2771b7566a268898ff604ab090c257829a69, prev: 007f5127808cc64a71fc23a7433680adbd3801c8a9c3bb9b1855db6f8b603d34, height: 34, txs: 1
+2018-05-01 04:36:15 UpdateTip:            new best=0068a60d2e0a9c29737bf8c0545f2771b7566a268898ff604ab090c257829a69  height=34  log2_work=13.129283  tx=35  date=2018-05-01 04:36:15 progress=1.000000  cache=0
+2018-05-01 04:36:29 MultiChainMiner: Block Found - 0029559bd705b509af99233e15ca0e953a7b08664cb17aa51d110f81c39ddadb, prev: 0068a60d2e0a9c29737bf8c0545f2771b7566a268898ff604ab090c257829a69, height: 35, txs: 1
+2018-05-01 04:36:29 UpdateTip:            new best=0029559bd705b509af99233e15ca0e953a7b08664cb17aa51d110f81c39ddadb  height=35  log2_work=13.169925  tx=36  date=2018-05-01 04:36:29 progress=1.000000  cache=0
+2018-05-01 04:36:42 MultiChainMiner: Block Found - 00d650100709e30bf0022120c795c3bf5edb2437725c9377f407750bb1c6b056, prev: 0029559bd705b509af99233e15ca0e953a7b08664cb17aa51d110f81c39ddadb, height: 36, txs: 1
+2018-05-01 04:36:42 UpdateTip:            new best=00d650100709e30bf0022120c795c3bf5edb2437725c9377f407750bb1c6b056  height=36  log2_work=13.209453  tx=37  date=2018-05-01 04:36:42 progress=1.000000  cache=0
+2018-05-01 04:37:01 MultiChainMiner: Block Found - 00c2c52119073436d30361f560deaa475a6e806951adb4a4683a83bdf9d73f68, prev: 00d650100709e30bf0022120c795c3bf5edb2437725c9377f407750bb1c6b056, height: 37, txs: 1
+2018-05-01 04:37:01 UpdateTip:            new best=00c2c52119073436d30361f560deaa475a6e806951adb4a4683a83bdf9d73f68  height=37  log2_work=13.247928  tx=38  date=2018-05-01 04:37:01 progress=1.000000  cache=0
+2018-05-01 04:37:18 MultiChainMiner: Block Found - 00ca9cec1f6c5496e8861c5ccebaa1da1044dc030131b6036e80dc0d5c5b1a26, prev: 00c2c52119073436d30361f560deaa475a6e806951adb4a4683a83bdf9d73f68, height: 38, txs: 1
+2018-05-01 04:37:18 UpdateTip:            new best=00ca9cec1f6c5496e8861c5ccebaa1da1044dc030131b6036e80dc0d5c5b1a26  height=38  log2_work=13.285402  tx=39  date=2018-05-01 04:37:18 progress=1.000000  cache=0
+2018-05-01 04:37:34 MultiChainMiner: Block Found - 002c5ecba44c35a6cf623d68b2eafd104e46637f3d23d992ad43c05182a9b060, prev: 00ca9cec1f6c5496e8861c5ccebaa1da1044dc030131b6036e80dc0d5c5b1a26, height: 39, txs: 1
+2018-05-01 04:37:34 UpdateTip:            new best=002c5ecba44c35a6cf623d68b2eafd104e46637f3d23d992ad43c05182a9b060  height=39  log2_work=13.321928  tx=40  date=2018-05-01 04:37:34 progress=1.000000  cache=0
+2018-05-01 04:37:50 MultiChainMiner: Block Found - 0007164e8aa58c58a081ab5899934818294392c8d85295e75cad9d83c41786d5, prev: 002c5ecba44c35a6cf623d68b2eafd104e46637f3d23d992ad43c05182a9b060, height: 40, txs: 1
+2018-05-01 04:37:50 UpdateTip:            new best=0007164e8aa58c58a081ab5899934818294392c8d85295e75cad9d83c41786d5  height=40  log2_work=13.357552  tx=41  date=2018-05-01 04:37:50 progress=1.000000  cache=0
+2018-05-01 04:38:05 MultiChainMiner: Block Found - 00c8add08bd6821d3e17aba684dfc5b7fa772de960e5f7a03911e8f6e69cfddf, prev: 0007164e8aa58c58a081ab5899934818294392c8d85295e75cad9d83c41786d5, height: 41, txs: 1
+2018-05-01 04:38:05 UpdateTip:            new best=00c8add08bd6821d3e17aba684dfc5b7fa772de960e5f7a03911e8f6e69cfddf  height=41  log2_work=13.392317  tx=42  date=2018-05-01 04:38:05 progress=1.000000  cache=0
+2018-05-01 04:38:14 opencon thread interrupt
+2018-05-01 04:38:14 addcon thread interrupt
+2018-05-01 04:38:14 dumpaddr thread stop
+2018-05-01 04:38:14 msghand thread interrupt
+2018-05-01 04:38:14 net thread interrupt
+2018-05-01 04:38:14 Shutdown: In progress...
+2018-05-01 04:38:14 RPCAcceptHandler: Error: The I/O operation has been aborted because of either a thread exit or an application request
+2018-05-01 04:38:14 RPCAcceptHandler: Error: The I/O operation has been aborted because of either a thread exit or an application request
+2018-05-01 04:38:14 MultiChainMiner terminated
+2018-05-01 04:38:14 StopNode()
+2018-05-01 04:38:14 Node stopped
+2018-05-01 04:38:14 Shutdown: done
+2018-05-01 05:08:45 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-01 05:08:45 MultiChain version build 1.0.4 protocol 10010 (May  1 2017, 09:50:11)
+2018-05-01 05:08:45 Using OpenSSL version OpenSSL 1.0.1k 8 Jan 2015
+2018-05-01 05:08:45 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-05-01 05:08:45 Default data directory C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9
+2018-05-01 05:08:45 Using data directory C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9
+2018-05-01 05:08:45 Using config file C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\corp9.conf
+2018-05-01 05:08:45 Using at most 125 connections (2048 file descriptors available)
+2018-05-01 05:08:45 Using 8 threads for script verification
+2018-05-01 05:08:45 Using wallet wallet.dat
+2018-05-01 05:08:45 init message: Verifying wallet...
+2018-05-01 05:08:45 CDBEnv::Open : LogDir=C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\database ErrorFile=C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\db.log
+2018-05-01 05:08:45 init message: Initializing multichain...
+2018-05-01 05:08:45 mchn: Parameter set is valid - initializing blockchain parameters...
+2018-05-01 05:08:45 Wallet mode: 00000003
+2018-05-01 05:08:45 nFileVersion = 100000
+2018-05-01 05:08:45 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 05:08:45 Node paused state is set to 00000000
+2018-05-01 05:08:45 Binding RPC on address ::1 port 6470 (IPv4+IPv6 bind any: 0)
+2018-05-01 05:08:45 Binding RPC on address 127.0.0.1 port 6470 (IPv4+IPv6 bind any: 0)
+2018-05-01 05:08:45 Bound to [::]:6471
+2018-05-01 05:08:45 Bound to 0.0.0.0:6471
+2018-05-01 05:08:45 Setting banned transaction list:    0 transactions
+2018-05-01 05:08:45 init message: Loading block index...
+2018-05-01 05:08:45 Opening LevelDB in C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\blocks\index
+2018-05-01 05:08:46 Opened LevelDB successfully
+2018-05-01 05:08:46 Opening LevelDB in C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\chainstate
+2018-05-01 05:08:46 Opened LevelDB successfully
+2018-05-01 05:08:46 nFileVersion = 100000
+2018-05-01 05:08:46 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 05:08:46 LoadBlockIndexDB: last block file = 0
+2018-05-01 05:08:46 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=42, size=11479, heights=0...41, time=2018-05-01...2018-05-01)
+2018-05-01 05:08:46 Checking all blk files are present...
+2018-05-01 05:08:46 LoadBlockIndexDB(): transaction index enabled
+2018-05-01 05:08:46 LoadBlockIndexDB(): hashBestChain=00c8add08bd6821d3e17aba684dfc5b7fa772de960e5f7a03911e8f6e69cfddf height=41 date=2018-05-01 04:38:05 progress=1.000000
+2018-05-01 05:08:46 init message: Verifying blocks...
+2018-05-01 05:08:46 Verifying last 41 blocks at level 3
+2018-05-01 05:08:46 No coin database inconsistencies in last 41 blocks (41 transactions)
+2018-05-01 05:08:46  block index             147ms
+2018-05-01 05:08:46 MultiChain protocol version: 10010
+2018-05-01 05:08:46 init message: Loading wallet...
+2018-05-01 05:08:46 nFileVersion = 100000
+2018-05-01 05:08:46 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 05:08:46  wallet                    1ms
+2018-05-01 05:08:46 mapBlockIndex.size() = 42
+2018-05-01 05:08:46 nBestHeight = 41
+2018-05-01 05:08:46 setKeyPool.size() = 1
+2018-05-01 05:08:46 oldWallet.size() = 0
+2018-05-01 05:08:46 mapWallet.size() = 1
+2018-05-01 05:08:46 mapAddressBook.size() = 1
+2018-05-01 05:08:46 init message: Loading addresses...
+2018-05-01 05:08:46 Loaded 0 addresses from peers.dat  0ms
+2018-05-01 05:08:46 AddLocal([fe80::c9d:13a8:9c01:cd44]:6471,1)
+2018-05-01 05:08:46 Discover: Tejpal-Nitro - fe80::c9d:13a8:9c01:cd44
+2018-05-01 05:08:46 AddLocal(192.168.0.20:6471,1)
+2018-05-01 05:08:46 Discover: Tejpal-Nitro - 192.168.0.20
+2018-05-01 05:08:46 AddLocal([2001:0:5ef5:79fb:c9d:13a8:9c01:cd44]:6471,1)
+2018-05-01 05:08:46 Discover: Tejpal-Nitro - 2001:0:5ef5:79fb:c9d:13a8:9c01:cd44
+2018-05-01 05:08:46 dnsseed thread start
+2018-05-01 05:08:46 init message: Done loading
+2018-05-01 05:08:46 opencon thread start
+2018-05-01 05:08:46 net thread start
+2018-05-01 05:08:46 Loading addresses from DNS seeds (could take a while)
+2018-05-01 05:08:46 dumpaddr thread start
+2018-05-01 05:08:46 msghand thread start
+2018-05-01 05:08:46 MultiChainMiner started
+2018-05-01 05:08:46 addcon thread start
+2018-05-01 05:08:46 0 addresses found from DNS seeds
+2018-05-01 05:08:46 dnsseed thread exit
+2018-05-01 05:08:46 Node started
+2018-05-01 05:08:53 MultiChainMiner: Block Found - 00eb841be1ced53ca7f1060527869a26f529d87cd84925ae77e42a083b8a6fbf, prev: 00c8add08bd6821d3e17aba684dfc5b7fa772de960e5f7a03911e8f6e69cfddf, height: 42, txs: 1
+2018-05-01 05:08:53 UpdateTip:            new best=00eb841be1ced53ca7f1060527869a26f529d87cd84925ae77e42a083b8a6fbf  height=42  log2_work=13.426265  tx=43  date=2018-05-01 05:08:53 progress=1.000000  cache=0
+2018-05-01 05:09:10 MultiChainMiner: Block Found - 00d52ac9bbf4480ab0c7de11def498a1ab909ff3671d312b35a67e9339049ea2, prev: 00eb841be1ced53ca7f1060527869a26f529d87cd84925ae77e42a083b8a6fbf, height: 43, txs: 1
+2018-05-01 05:09:10 UpdateTip:            new best=00d52ac9bbf4480ab0c7de11def498a1ab909ff3671d312b35a67e9339049ea2  height=43  log2_work=13.459432  tx=44  date=2018-05-01 05:09:10 progress=1.000000  cache=0
+2018-05-01 05:09:21 MultiChainMiner: Block Found - 008df00e8ac0d91176dec66b2d2d56b66ceb58752c3ac5c009b147b5fd827c59, prev: 00d52ac9bbf4480ab0c7de11def498a1ab909ff3671d312b35a67e9339049ea2, height: 44, txs: 1
+2018-05-01 05:09:21 UpdateTip:            new best=008df00e8ac0d91176dec66b2d2d56b66ceb58752c3ac5c009b147b5fd827c59  height=44  log2_work=13.491853  tx=45  date=2018-05-01 05:09:21 progress=1.000000  cache=0
+2018-05-01 05:09:41 MultiChainMiner: Block Found - 00f6d728e7469331d85a9db750aaff05cf71e39eaff87cf975a4ce2d013a02db, prev: 008df00e8ac0d91176dec66b2d2d56b66ceb58752c3ac5c009b147b5fd827c59, height: 45, txs: 1
+2018-05-01 05:09:41 UpdateTip:            new best=00f6d728e7469331d85a9db750aaff05cf71e39eaff87cf975a4ce2d013a02db  height=45  log2_work=13.523562  tx=46  date=2018-05-01 05:09:41 progress=1.000000  cache=0
+2018-05-01 05:09:47 Adding fixed seed nodes as DNS doesn't seem to be available.
+2018-05-01 05:09:58 MultiChainMiner: Block Found - 00d9982c0330ce77835e12216a75fe7b2bcffc583c1930b9e68a04a92b35c5b1, prev: 00f6d728e7469331d85a9db750aaff05cf71e39eaff87cf975a4ce2d013a02db, height: 46, txs: 1
+2018-05-01 05:09:58 UpdateTip:            new best=00d9982c0330ce77835e12216a75fe7b2bcffc583c1930b9e68a04a92b35c5b1  height=46  log2_work=13.554589  tx=47  date=2018-05-01 05:09:58 progress=1.000000  cache=0
+2018-05-01 05:10:13 MultiChainMiner: Block Found - 00c8ab37e800b3b346f7084bc7858e7d383646c3dc32136ad83276df87634a63, prev: 00d9982c0330ce77835e12216a75fe7b2bcffc583c1930b9e68a04a92b35c5b1, height: 47, txs: 1
+2018-05-01 05:10:13 UpdateTip:            new best=00c8ab37e800b3b346f7084bc7858e7d383646c3dc32136ad83276df87634a63  height=47  log2_work=13.584963  tx=48  date=2018-05-01 05:10:13 progress=1.000000  cache=0
+2018-05-01 05:10:26 MultiChainMiner: Block Found - 007da75acdedb164299453f484c8b314bfb5615d29eef81df9e5a92fd0831a3a, prev: 00c8ab37e800b3b346f7084bc7858e7d383646c3dc32136ad83276df87634a63, height: 48, txs: 1
+2018-05-01 05:10:26 UpdateTip:            new best=007da75acdedb164299453f484c8b314bfb5615d29eef81df9e5a92fd0831a3a  height=48  log2_work=13.61471  tx=49  date=2018-05-01 05:10:26 progress=1.000000  cache=0
+2018-05-01 05:10:47 MultiChainMiner: Block Found - 0065ac660bf5588832a6d438272989019b47013fd94fa323653b4104c38c3091, prev: 007da75acdedb164299453f484c8b314bfb5615d29eef81df9e5a92fd0831a3a, height: 49, txs: 1
+2018-05-01 05:10:47 UpdateTip:            new best=0065ac660bf5588832a6d438272989019b47013fd94fa323653b4104c38c3091  height=49  log2_work=13.643856  tx=50  date=2018-05-01 05:10:47 progress=1.000000  cache=0
+2018-05-01 05:11:07 MultiChainMiner: Block Found - 000fe6d6b4ab9174df864776602651dd6cff5470f43feb57d6803bff8d7a8dfe, prev: 0065ac660bf5588832a6d438272989019b47013fd94fa323653b4104c38c3091, height: 50, txs: 1
+2018-05-01 05:11:07 UpdateTip:            new best=000fe6d6b4ab9174df864776602651dd6cff5470f43feb57d6803bff8d7a8dfe  height=50  log2_work=13.672425  tx=51  date=2018-05-01 05:11:07 progress=1.000000  cache=0
+2018-05-01 05:11:26 MultiChainMiner: Block Found - 0003d5257bd1db4a3841585da4a887ac8648e97e05f20aa5467ffc3db3ad0412, prev: 000fe6d6b4ab9174df864776602651dd6cff5470f43feb57d6803bff8d7a8dfe, height: 51, txs: 1
+2018-05-01 05:11:26 UpdateTip:            new best=0003d5257bd1db4a3841585da4a887ac8648e97e05f20aa5467ffc3db3ad0412  height=51  log2_work=13.70044  tx=52  date=2018-05-01 05:11:26 progress=1.000000  cache=0
+2018-05-01 05:11:37 MultiChainMiner: Block Found - 000af8961a4a416ec6023b21aef5698da896fb2971a548a1e662080560b096f6, prev: 0003d5257bd1db4a3841585da4a887ac8648e97e05f20aa5467ffc3db3ad0412, height: 52, txs: 1
+2018-05-01 05:11:37 UpdateTip:            new best=000af8961a4a416ec6023b21aef5698da896fb2971a548a1e662080560b096f6  height=52  log2_work=13.72792  tx=53  date=2018-05-01 05:11:37 progress=1.000000  cache=0
+2018-05-01 05:11:58 MultiChainMiner: Block Found - 00f53127837d75a098004be2c5592c934ba989ccf3a0ebabb558a152594068a4, prev: 000af8961a4a416ec6023b21aef5698da896fb2971a548a1e662080560b096f6, height: 53, txs: 1
+2018-05-01 05:11:58 UpdateTip:            new best=00f53127837d75a098004be2c5592c934ba989ccf3a0ebabb558a152594068a4  height=53  log2_work=13.754888  tx=54  date=2018-05-01 05:11:58 progress=1.000000  cache=0
+2018-05-01 05:12:09 MultiChainMiner: Block Found - 007bdb11b89434f9af754c9a2a6f4b03464aee1a531171027b49a1aaea5884a5, prev: 00f53127837d75a098004be2c5592c934ba989ccf3a0ebabb558a152594068a4, height: 54, txs: 1
+2018-05-01 05:12:09 UpdateTip:            new best=007bdb11b89434f9af754c9a2a6f4b03464aee1a531171027b49a1aaea5884a5  height=54  log2_work=13.78136  tx=55  date=2018-05-01 05:12:09 progress=1.000000  cache=0
+2018-05-01 05:12:18 MultiChainMiner: Block Found - 0035b277f410f7d0d3b3c22a20bcff012be0f74fbb98c9584c6c108d1b4ba0b3, prev: 007bdb11b89434f9af754c9a2a6f4b03464aee1a531171027b49a1aaea5884a5, height: 55, txs: 1
+2018-05-01 05:12:18 UpdateTip:            new best=0035b277f410f7d0d3b3c22a20bcff012be0f74fbb98c9584c6c108d1b4ba0b3  height=55  log2_work=13.807355  tx=56  date=2018-05-01 05:12:18 progress=1.000000  cache=0
+2018-05-01 05:12:30 MultiChainMiner: Block Found - 00c2a31487988a1a768bd4ced5f121a97d71f310e918bf5aa73a3f4dd7c17b6e, prev: 0035b277f410f7d0d3b3c22a20bcff012be0f74fbb98c9584c6c108d1b4ba0b3, height: 56, txs: 1
+2018-05-01 05:12:30 UpdateTip:            new best=00c2a31487988a1a768bd4ced5f121a97d71f310e918bf5aa73a3f4dd7c17b6e  height=56  log2_work=13.83289  tx=57  date=2018-05-01 05:12:30 progress=1.000000  cache=0
+2018-05-01 05:12:41 MultiChainMiner: Block Found - 00cf0647631c0f7846cdc7f4d2e5b9aa24f940aa1ce7265b2ddc7e0850a63a0a, prev: 00c2a31487988a1a768bd4ced5f121a97d71f310e918bf5aa73a3f4dd7c17b6e, height: 57, txs: 1
+2018-05-01 05:12:41 UpdateTip:            new best=00cf0647631c0f7846cdc7f4d2e5b9aa24f940aa1ce7265b2ddc7e0850a63a0a  height=57  log2_work=13.857981  tx=58  date=2018-05-01 05:12:41 progress=1.000000  cache=0
+2018-05-01 05:12:58 MultiChainMiner: Block Found - 0061d79bec06a3b72bae92f708e43046ef0864dd7de21e350e4da47aaac6d861, prev: 00cf0647631c0f7846cdc7f4d2e5b9aa24f940aa1ce7265b2ddc7e0850a63a0a, height: 58, txs: 1
+2018-05-01 05:12:58 UpdateTip:            new best=0061d79bec06a3b72bae92f708e43046ef0864dd7de21e350e4da47aaac6d861  height=58  log2_work=13.882643  tx=59  date=2018-05-01 05:12:58 progress=1.000000  cache=0
+2018-05-01 05:13:17 MultiChainMiner: Block Found - 00d635e1eae5bcb6578d71964a1cb62ea8a58b49809a0d539e3fe411dd9319c3, prev: 0061d79bec06a3b72bae92f708e43046ef0864dd7de21e350e4da47aaac6d861, height: 59, txs: 1
+2018-05-01 05:13:17 UpdateTip:            new best=00d635e1eae5bcb6578d71964a1cb62ea8a58b49809a0d539e3fe411dd9319c3  height=59  log2_work=13.906891  tx=60  date=2018-05-01 05:13:17 progress=1.000000  cache=0
+2018-05-01 05:18:30 dumpaddr thread stop
+2018-05-01 05:18:30 addcon thread interrupt
+2018-05-01 05:18:30 opencon thread interrupt
+2018-05-01 05:18:30 msghand thread interrupt
+2018-05-01 05:18:30 net thread interrupt
+2018-05-01 05:18:30 Shutdown: In progress...
+2018-05-01 05:18:30 RPCAcceptHandler: Error: The I/O operation has been aborted because of either a thread exit or an application request
+2018-05-01 05:18:30 RPCAcceptHandler: Error: The I/O operation has been aborted because of either a thread exit or an application request
+2018-05-01 05:18:30 MultiChainMiner terminated
+2018-05-01 05:18:30 StopNode()
+2018-05-01 05:18:30 Node stopped
+2018-05-01 05:18:31 Shutdown: done
+2018-05-01 05:28:33 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-01 05:28:33 MultiChain version build 1.0.4 protocol 10010 (May  1 2017, 09:50:11)
+2018-05-01 05:28:33 Using OpenSSL version OpenSSL 1.0.1k 8 Jan 2015
+2018-05-01 05:28:33 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-05-01 05:28:33 Default data directory C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9
+2018-05-01 05:28:33 Using data directory C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9
+2018-05-01 05:28:33 Using config file C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\corp9.conf
+2018-05-01 05:28:33 Using at most 125 connections (2048 file descriptors available)
+2018-05-01 05:28:33 Using 8 threads for script verification
+2018-05-01 05:28:33 Using wallet wallet.dat
+2018-05-01 05:28:33 init message: Verifying wallet...
+2018-05-01 05:28:33 CDBEnv::Open : LogDir=C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\database ErrorFile=C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\db.log
+2018-05-01 05:28:33 init message: Initializing multichain...
+2018-05-01 05:28:33 mchn: Parameter set is valid - initializing blockchain parameters...
+2018-05-01 05:28:33 Wallet mode: 00000003
+2018-05-01 05:28:33 nFileVersion = 100000
+2018-05-01 05:28:33 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 05:28:33 Node paused state is set to 00000000
+2018-05-01 05:28:33 Binding RPC on address ::1 port 6018 (IPv4+IPv6 bind any: 0)
+2018-05-01 05:28:33 Binding RPC on address 127.0.0.1 port 6018 (IPv4+IPv6 bind any: 0)
+2018-05-01 05:28:33 Bound to [::]:6471
+2018-05-01 05:28:33 Bound to 0.0.0.0:6471
+2018-05-01 05:28:33 Setting banned transaction list:    0 transactions
+2018-05-01 05:28:33 init message: Loading block index...
+2018-05-01 05:28:33 Opening LevelDB in C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\blocks\index
+2018-05-01 05:28:33 Opened LevelDB successfully
+2018-05-01 05:28:33 Opening LevelDB in C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\chainstate
+2018-05-01 05:28:33 Opened LevelDB successfully
+2018-05-01 05:28:33 nFileVersion = 100000
+2018-05-01 05:28:33 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 05:28:33 LoadBlockIndexDB: last block file = 0
+2018-05-01 05:28:33 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=60, size=16402, heights=0...59, time=2018-05-01...2018-05-01)
+2018-05-01 05:28:33 Checking all blk files are present...
+2018-05-01 05:28:33 LoadBlockIndexDB(): transaction index enabled
+2018-05-01 05:28:33 LoadBlockIndexDB(): hashBestChain=00d635e1eae5bcb6578d71964a1cb62ea8a58b49809a0d539e3fe411dd9319c3 height=59 date=2018-05-01 05:13:17 progress=1.000000
+2018-05-01 05:28:33 init message: Verifying blocks...
+2018-05-01 05:28:33 Verifying last 59 blocks at level 3
+2018-05-01 05:28:33 No coin database inconsistencies in last 59 blocks (59 transactions)
+2018-05-01 05:28:33  block index              97ms
+2018-05-01 05:28:33 MultiChain protocol version: 10010
+2018-05-01 05:28:33 init message: Loading wallet...
+2018-05-01 05:28:33 nFileVersion = 100000
+2018-05-01 05:28:33 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2018-05-01 05:28:33  wallet                    0ms
+2018-05-01 05:28:33 mapBlockIndex.size() = 60
+2018-05-01 05:28:33 nBestHeight = 59
+2018-05-01 05:28:33 setKeyPool.size() = 1
+2018-05-01 05:28:33 oldWallet.size() = 0
+2018-05-01 05:28:33 mapWallet.size() = 1
+2018-05-01 05:28:33 mapAddressBook.size() = 1
+2018-05-01 05:28:33 init message: Loading addresses...
+2018-05-01 05:28:33 Loaded 0 addresses from peers.dat  0ms
+2018-05-01 05:28:33 AddLocal([fe80::c9d:13a8:9c01:cd44]:6471,1)
+2018-05-01 05:28:33 Discover: Tejpal-Nitro - fe80::c9d:13a8:9c01:cd44
+2018-05-01 05:28:33 AddLocal(192.168.0.20:6471,1)
+2018-05-01 05:28:33 Discover: Tejpal-Nitro - 192.168.0.20
+2018-05-01 05:28:33 AddLocal([2001:0:5ef5:79fb:c9d:13a8:9c01:cd44]:6471,1)
+2018-05-01 05:28:33 Discover: Tejpal-Nitro - 2001:0:5ef5:79fb:c9d:13a8:9c01:cd44
+2018-05-01 05:28:33 dnsseed thread start
+2018-05-01 05:28:33 net thread start
+2018-05-01 05:28:33 addcon thread start
+2018-05-01 05:28:33 init message: Done loading
+2018-05-01 05:28:33 opencon thread start
+2018-05-01 05:28:33 Loading addresses from DNS seeds (could take a while)
+2018-05-01 05:28:33 msghand thread start
+2018-05-01 05:28:33 dumpaddr thread start
+2018-05-01 05:28:33 MultiChainMiner started
+2018-05-01 05:28:33 0 addresses found from DNS seeds
+2018-05-01 05:28:33 dnsseed thread exit
+2018-05-01 05:28:33 Node started
+2018-05-01 05:29:34 Adding fixed seed nodes as DNS doesn't seem to be available.
+2018-05-01 05:31:12 keypool added key 3, size=2
+2018-05-01 05:36:03 dumpaddr thread stop
+2018-05-01 05:36:03 addcon thread interrupt
+2018-05-01 05:36:03 opencon thread interrupt
+2018-05-01 05:36:03 msghand thread interrupt
+2018-05-01 05:36:03 net thread interrupt
+2018-05-01 05:36:03 Shutdown: In progress...
+2018-05-01 05:36:03 RPCAcceptHandler: Error: The I/O operation has been aborted because of either a thread exit or an application request
+2018-05-01 05:36:03 RPCAcceptHandler: Error: The I/O operation has been aborted because of either a thread exit or an application request
+2018-05-01 05:36:04 MultiChainMiner terminated
+2018-05-01 05:36:04 StopNode()
+2018-05-01 05:36:04 Node stopped
+2018-05-01 05:36:04 Shutdown: done
+2018-05-01 05:52:51 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-01 05:52:51 MultiChain version build 1.0.4 protocol 10010 (May  1 2017, 09:50:11)
+2018-05-01 05:52:51 Using OpenSSL version OpenSSL 1.0.1k 8 Jan 2015
+2018-05-01 05:52:51 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-05-01 05:52:51 Default data directory C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9
+2018-05-01 05:52:51 Using data directory C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9
+2018-05-01 05:52:51 Using config file C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\corp9.conf
+2018-05-01 05:52:51 Using at most 125 connections (2048 file descriptors available)
+2018-05-01 05:52:51 Using 8 threads for script verification
+2018-05-01 05:52:51 Using wallet wallet.dat
+2018-05-01 05:52:51 init message: Verifying wallet...
+2018-05-01 05:52:51 CDBEnv::Open : LogDir=C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\database ErrorFile=C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\db.log
+2018-05-01 05:52:51 init message: Initializing multichain...
+2018-05-01 05:52:51 mchn: Parameter set is valid - initializing blockchain parameters...
+2018-05-01 05:52:51 Wallet mode: 00000003
+2018-05-01 05:52:51 nFileVersion = 100000
+2018-05-01 05:52:51 Keys: 3 plaintext, 0 encrypted, 3 w/ metadata, 3 total
+2018-05-01 05:52:51 Node paused state is set to 00000000
+2018-05-01 05:52:51 Binding RPC on address ::1 port 6018 (IPv4+IPv6 bind any: 0)
+2018-05-01 05:52:51 Binding RPC on address 127.0.0.1 port 6018 (IPv4+IPv6 bind any: 0)
+2018-05-01 05:52:51 Bound to [::]:6019
+2018-05-01 05:52:51 Bound to 0.0.0.0:6019
+2018-05-01 05:52:51 Setting banned transaction list:    0 transactions
+2018-05-01 05:52:51 init message: Loading block index...
+2018-05-01 05:52:51 Opening LevelDB in C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\blocks\index
+2018-05-01 05:52:52 Opened LevelDB successfully
+2018-05-01 05:52:52 Opening LevelDB in C:\Users\Tejpal\AppData\Roaming\MultiChain\corp9\chainstate
+2018-05-01 05:52:52 Opened LevelDB successfully
+2018-05-01 05:52:52 nFileVersion = 100000
+2018-05-01 05:52:52 Keys: 3 plaintext, 0 encrypted, 3 w/ metadata, 3 total
+2018-05-01 05:52:52 LoadBlockIndexDB: last block file = 0
+2018-05-01 05:52:52 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=60, size=16402, heights=0...59, time=2018-05-01...2018-05-01)
+2018-05-01 05:52:52 Checking all blk files are present...
+2018-05-01 05:52:52 LoadBlockIndexDB(): transaction index enabled
+2018-05-01 05:52:52 LoadBlockIndexDB(): hashBestChain=00d635e1eae5bcb6578d71964a1cb62ea8a58b49809a0d539e3fe411dd9319c3 height=59 date=2018-05-01 05:13:17 progress=1.000000
+2018-05-01 05:52:52 init message: Verifying blocks...
+2018-05-01 05:52:52 Verifying last 59 blocks at level 3
+2018-05-01 05:52:52 No coin database inconsistencies in last 59 blocks (59 transactions)
+2018-05-01 05:52:52  block index             138ms
+2018-05-01 05:52:52 MultiChain protocol version: 10010
+2018-05-01 05:52:52 init message: Loading wallet...
+2018-05-01 05:52:52 nFileVersion = 100000
+2018-05-01 05:52:52 Keys: 3 plaintext, 0 encrypted, 3 w/ metadata, 3 total
+2018-05-01 05:52:52  wallet                    1ms
+2018-05-01 05:52:52 mapBlockIndex.size() = 60
+2018-05-01 05:52:52 nBestHeight = 59
+2018-05-01 05:52:52 setKeyPool.size() = 2
+2018-05-01 05:52:52 oldWallet.size() = 0
+2018-05-01 05:52:52 mapWallet.size() = 1
+2018-05-01 05:52:52 mapAddressBook.size() = 1
+2018-05-01 05:52:52 init message: Loading addresses...
+2018-05-01 05:52:52 Loaded 0 addresses from peers.dat  0ms
+2018-05-01 05:52:52 AddLocal([fe80::c9d:13a8:9c01:cd44]:6019,1)
+2018-05-01 05:52:52 Discover: Tejpal-Nitro - fe80::c9d:13a8:9c01:cd44
+2018-05-01 05:52:52 AddLocal(192.168.0.20:6019,1)
+2018-05-01 05:52:52 Discover: Tejpal-Nitro - 192.168.0.20
+2018-05-01 05:52:52 AddLocal([2001:0:5ef5:79fb:c9d:13a8:9c01:cd44]:6019,1)
+2018-05-01 05:52:52 Discover: Tejpal-Nitro - 2001:0:5ef5:79fb:c9d:13a8:9c01:cd44
+2018-05-01 05:52:52 dnsseed thread start
+2018-05-01 05:52:52 net thread start
+2018-05-01 05:52:52 init message: Done loading
+2018-05-01 05:52:52 addcon thread start
+2018-05-01 05:52:52 opencon thread start
+2018-05-01 05:52:52 Loading addresses from DNS seeds (could take a while)
+2018-05-01 05:52:52 0 addresses found from DNS seeds
+2018-05-01 05:52:52 dumpaddr thread start
+2018-05-01 05:52:52 MultiChainMiner started
+2018-05-01 05:52:52 msghand thread start
+2018-05-01 05:52:52 dnsseed thread exit
+2018-05-01 05:52:52 Node started
+2018-05-01 05:53:53 Adding fixed seed nodes as DNS doesn't seem to be available.

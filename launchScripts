@@ -1,0 +1,19 @@
+function launchNodes {
+start multichaind abc
+start multichaind corp1
+start multichaind corp2
+start multichaind corp3
+start multichaind corp4
+start multichaind corp5
+start multichaind corp6
+start multichaind corp7
+start multichaind corp8
+start multichaind corp9
+
+}
+
+function cutc {
+    cd C:\apps\cutc-deloitte
+    $env:FLASK_APP = 'app.py'
+    flask run
+}
