@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Enter a transaction between corporations</h2>
+<p>Select a corporation to transfer money to:</p>
+<script type="text/javascript" src="app/static/js/submit.js"></script>
+<form action="{{ url_for('table_data') }}" class="form-inline" method="post"
+        role="form" enctype="application/json">
+  <h3>From</h3>
+  <select id = "from" name="from">
+    <option value="infoabc">infoabc</option>
+    <option value="infocorp1">infocorp1</option>
+    <option value="infocorp2">infocorp2</option>
+    <option value="infocorp3">infocorp3</option>
+	<option value="infocorp4">infocorp4</option>
+	<option value="infocorp5">infocorp5</option>
+	<option value="infocorp6">infocorp6</option>
+	<option value="infocorp7">infocorp7</option>
+	<option value="infocorp8">infocorp8</option>
+	<option value="infocorp9">infocorp9</option>
+  </select>
+  <h3>To</h3>
+  <select id = "to" name="to">
+    <option value="infoabc">infoabc</option>
+    <option value="infocorp1">infocorp1</option>
+    <option value="infocorp2">infocorp2</option>
+    <option value="infocorp3">infocorp3</option>
+	<option value="infocorp4">infocorp4</option>
+	<option value="infocorp5">infocorp5</option>
+	<option value="infocorp6">infocorp6</option>
+	<option value="infocorp7">infocorp7</option>
+	<option value="infocorp8">infocorp8</option>
+	<option value="infocorp9">infocorp9</option>
+  </select>
+  <br><br>
+  <h3>Enter Transaction Amount</h3>
+  <input id = "amount" type="number"/>
+  <h3>In Currency</h3>
+  <select id = "currency" name="currency">
+    <option value="CAD">CAD</option>
+    <option value="USD">USD</option>
+  </select>
+  <input type="submit">
+</form>
+
+</body>
+</html>
