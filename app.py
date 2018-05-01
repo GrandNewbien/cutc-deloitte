@@ -3,7 +3,10 @@ from Savoir import Savoir
 from creds import *
 # RPC call wrappers simplified and abstracted through savoir
 # which are located in creds.py
-
+rpchost = 'localhost'
+rpcport = '736'
+chainname = 'chain1'
+api = Savoir(rpcuser, rpcpasswd, rpchost, rpcport, chainname)
 
 infoabc = apiabc.getinfo()
 infocorp1 = apicorp1.getinfo()
@@ -36,10 +39,16 @@ def echo():
 def testhome():
     return render_template('testhome.html')
 
+@app.route("/submit")
+def submitTransaction():
+
+    return render_template('submit.html')
+
 @app.route("/")
 def hello():
 
     return '''
+    
 <html>
     <head>
         <title>CUTC - Deloitte</title>
