@@ -52,3 +52,4 @@ To be updated
 # Links
 
 https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ii-templates
+https://code-maven.com/using-templates-in-flask 

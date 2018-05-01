@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template, request
 from Savoir import Savoir
 from creds import *
 # RPC call wrappers simplified and abstracted through savoir
@@ -17,6 +17,24 @@ infocorp8 = apicorp8.getinfo()
 infocorp9 = apicorp9.getinfo()
 
 app = Flask(__name__)
+
+@app.route('/test')
+def test():
+    return render_template('index.html',
+    info1 = str(infoabc),
+    info2 = str(infoabc['chainname']))
+
+@app.route('/home')
+def home():
+    return render_template('home.html')
+
+@app.route("/echo", methods=['POST'])
+def echo(): 
+    return "You said: " + request.form['text']
+
+@app.route('/testhome')
+def testhome():
+    return render_template('testhome.html')
 
 @app.route("/")
 def hello():
