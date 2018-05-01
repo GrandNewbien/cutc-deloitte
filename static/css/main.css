@@ -1,3 +1,10 @@
-.chain{
+.chain {
     width: 20%;
+    overflow: hidden;
+    height: 50%;
+    float: left;
+    margin: 5 5 5 5;
+    background: khaki;
+    box-shadow: 1px 1px grey;
 }
+

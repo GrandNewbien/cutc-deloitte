@@ -4,7 +4,7 @@ from creds import *
 # RPC call wrappers simplified and abstracted through savoir
 # which are located in creds.py
 
-infoabc = apiabc.getinfo()
+infoabc   = apiabc.getinfo()
 infocorp1 = apicorp1.getinfo()
 infocorp2 = apicorp2.getinfo()
 infocorp3 = apicorp3.getinfo()
@@ -26,8 +26,3 @@ def hello():
 @app.route("/echo", methods=['POST'])
 def echo(): 
     return "You said: " + request.form['text']
-
-@app.route("/submit")
-def submitTransaction():
-
-    return render_template('submit.html')
