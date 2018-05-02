@@ -42,12 +42,15 @@ This readme was written assuming a windows environment using PowerShell, but can
 $ launchNodes
 $ cutc
 ```
+6. If it is your first time running, issue assets by running this command. It may take some time to complete.:
+
+```powershell
+$ issueAssets
+```
 
 # Usage
 
 To be updated
-
-  
 
 # Links
 

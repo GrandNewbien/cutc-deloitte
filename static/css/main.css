@@ -4,7 +4,24 @@
     height: 50%;
     float: left;
     margin: 5 5 5 5;
-    background: khaki;
-    box-shadow: 1px 1px grey;
+    background: #82b74b;
+    color: #3e4444;
+    box-shadow: 1px 1px #405d27;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #3e4444;
+}
+form {
+
 }
 
+input {
+
+}
+
+#footer {
+    color: #c1946a;
+}

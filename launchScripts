@@ -17,3 +17,65 @@ function cutc {
     $env:FLASK_APP = 'app.py'
     flask run
 }
+
+function issueAssets {
+multichain-cli abc issuefrom 1FuumqWccLtdYQPn3xLpd5MX67ro4fjEMDBkxu 1FuumqWccLtdYQPn3xLpd5MX67ro4fjEMDBkxu '{"name":"USD","open":true}' 500000 0.01 0
+multichain-cli abc issuefrom 1FuumqWccLtdYQPn3xLpd5MX67ro4fjEMDBkxu 1FuumqWccLtdYQPn3xLpd5MX67ro4fjEMDBkxu '{"name":"CAD","open":true}' 40000 0.01 0
+multichain-cli abc issuefrom 1FuumqWccLtdYQPn3xLpd5MX67ro4fjEMDBkxu 1FuumqWccLtdYQPn3xLpd5MX67ro4fjEMDBkxu '{"name":"BTC","open":true}' 500 0.000001 0
+multichain-cli abc issuefrom 1FuumqWccLtdYQPn3xLpd5MX67ro4fjEMDBkxu 1FuumqWccLtdYQPn3xLpd5MX67ro4fjEMDBkxu '{"name":"ETH","open":true}' 1400 0.000001 0
+multichain-cli abc issuefrom 1FuumqWccLtdYQPn3xLpd5MX67ro4fjEMDBkxu 1FuumqWccLtdYQPn3xLpd5MX67ro4fjEMDBkxu '{"name":"GBP","open":true}' 500000 0.01 0
+
+multichain-cli corp1 issuefrom 1HVgETwGVPztYbdYzpKPn6KsRRpH4PViiqYvJi 1HVgETwGVPztYbdYzpKPn6KsRRpH4PViiqYvJi '{"name":"GBP","open":true}' 500000 0.01 0
+multichain-cli corp1 issuefrom 1HVgETwGVPztYbdYzpKPn6KsRRpH4PViiqYvJi 1HVgETwGVPztYbdYzpKPn6KsRRpH4PViiqYvJi '{"name":"USD","open":true}' 500000 0.01 0
+multichain-cli corp1 issuefrom 1HVgETwGVPztYbdYzpKPn6KsRRpH4PViiqYvJi 1HVgETwGVPztYbdYzpKPn6KsRRpH4PViiqYvJi '{"name":"CAD","open":true}' 40000 0.01 0
+multichain-cli corp1 issuefrom 1HVgETwGVPztYbdYzpKPn6KsRRpH4PViiqYvJi 1HVgETwGVPztYbdYzpKPn6KsRRpH4PViiqYvJi '{"name":"BTC","open":true}' 500 0.000001 0
+multichain-cli corp1 issuefrom 1HVgETwGVPztYbdYzpKPn6KsRRpH4PViiqYvJi 1HVgETwGVPztYbdYzpKPn6KsRRpH4PViiqYvJi '{"name":"ETH","open":true}' 1400 0.000001 0
+
+multichain-cli corp2 issuefrom 1F3kLVZByVrerjfjPgivk8LSy5TDNhEZtXhBHe 1F3kLVZByVrerjfjPgivk8LSy5TDNhEZtXhBHe '{"name":"GBP","open":true}' 500000 0.01 0
+multichain-cli corp2 issuefrom 1F3kLVZByVrerjfjPgivk8LSy5TDNhEZtXhBHe 1F3kLVZByVrerjfjPgivk8LSy5TDNhEZtXhBHe '{"name":"USD","open":true}' 500000 0.01 0
+multichain-cli corp2 issuefrom 1F3kLVZByVrerjfjPgivk8LSy5TDNhEZtXhBHe 1F3kLVZByVrerjfjPgivk8LSy5TDNhEZtXhBHe '{"name":"CAD","open":true}' 40000 0.01 0
+multichain-cli corp2 issuefrom 1F3kLVZByVrerjfjPgivk8LSy5TDNhEZtXhBHe 1F3kLVZByVrerjfjPgivk8LSy5TDNhEZtXhBHe '{"name":"BTC","open":true}' 500 0.000001 0
+multichain-cli corp2 issuefrom 1F3kLVZByVrerjfjPgivk8LSy5TDNhEZtXhBHe 1F3kLVZByVrerjfjPgivk8LSy5TDNhEZtXhBHe '{"name":"ETH","open":true}' 1400 0.000001 0
+
+multichain-cli corp3 issuefrom 1MpppAbAZaYyifvAoL1rmNuAfUedKY3xMCPevi 1MpppAbAZaYyifvAoL1rmNuAfUedKY3xMCPevi '{"name":"GBP","open":true}' 500000 0.01 0
+multichain-cli corp3 issuefrom 1MpppAbAZaYyifvAoL1rmNuAfUedKY3xMCPevi 1MpppAbAZaYyifvAoL1rmNuAfUedKY3xMCPevi '{"name":"USD","open":true}' 500000 0.01 0
+multichain-cli corp3 issuefrom 1MpppAbAZaYyifvAoL1rmNuAfUedKY3xMCPevi 1MpppAbAZaYyifvAoL1rmNuAfUedKY3xMCPevi '{"name":"CAD","open":true}' 40000 0.01 0
+multichain-cli corp3 issuefrom 1MpppAbAZaYyifvAoL1rmNuAfUedKY3xMCPevi 1MpppAbAZaYyifvAoL1rmNuAfUedKY3xMCPevi '{"name":"BTC","open":true}' 500 0.000001 0
+multichain-cli corp3 issuefrom 1MpppAbAZaYyifvAoL1rmNuAfUedKY3xMCPevi 1MpppAbAZaYyifvAoL1rmNuAfUedKY3xMCPevi '{"name":"ETH","open":true}' 1400 0.000001 0
+
+multichain-cli corp4 issuefrom 18CtEqeUYxM2AaemdLF56K8NHJsKwwDf6hoF3h 18CtEqeUYxM2AaemdLF56K8NHJsKwwDf6hoF3h '{"name":"GBP","open":true}' 500000 0.01 0
+multichain-cli corp4 issuefrom 18CtEqeUYxM2AaemdLF56K8NHJsKwwDf6hoF3h 18CtEqeUYxM2AaemdLF56K8NHJsKwwDf6hoF3h '{"name":"USD","open":true}' 500000 0.01 0
+multichain-cli corp4 issuefrom 18CtEqeUYxM2AaemdLF56K8NHJsKwwDf6hoF3h 18CtEqeUYxM2AaemdLF56K8NHJsKwwDf6hoF3h '{"name":"CAD","open":true}' 40000 0.01 0
+multichain-cli corp4 issuefrom 18CtEqeUYxM2AaemdLF56K8NHJsKwwDf6hoF3h 18CtEqeUYxM2AaemdLF56K8NHJsKwwDf6hoF3h '{"name":"BTC","open":true}' 500 0.000001 0
+multichain-cli corp4 issuefrom 18CtEqeUYxM2AaemdLF56K8NHJsKwwDf6hoF3h 18CtEqeUYxM2AaemdLF56K8NHJsKwwDf6hoF3h '{"name":"ETH","open":true}' 1400 0.000001 0
+
+multichain-cli corp5 issuefrom 1TjuegKdvFzrjejbuqDmtPC5dHfTA7LR1hPE1k 1TjuegKdvFzrjejbuqDmtPC5dHfTA7LR1hPE1k '{"name":"GBP","open":true}' 500000 0.01 0
+multichain-cli corp5 issuefrom 1TjuegKdvFzrjejbuqDmtPC5dHfTA7LR1hPE1k 1TjuegKdvFzrjejbuqDmtPC5dHfTA7LR1hPE1k '{"name":"USD","open":true}' 500000 0.01 0
+multichain-cli corp5 issuefrom 1TjuegKdvFzrjejbuqDmtPC5dHfTA7LR1hPE1k 1TjuegKdvFzrjejbuqDmtPC5dHfTA7LR1hPE1k '{"name":"CAD","open":true}' 40000 0.01 0
+multichain-cli corp5 issuefrom 1TjuegKdvFzrjejbuqDmtPC5dHfTA7LR1hPE1k 1TjuegKdvFzrjejbuqDmtPC5dHfTA7LR1hPE1k '{"name":"BTC","open":true}' 500 0.000001 0
+multichain-cli corp5 issuefrom 1TjuegKdvFzrjejbuqDmtPC5dHfTA7LR1hPE1k 1TjuegKdvFzrjejbuqDmtPC5dHfTA7LR1hPE1k '{"name":"ETH","open":true}' 1400 0.000001 0
+
+multichain-cli corp6 issuefrom 1DHtdKhPW6fegE5ntSmuGZF6GALUZagS8ruGWw 1DHtdKhPW6fegE5ntSmuGZF6GALUZagS8ruGWw '{"name":"GBP","open":true}' 500000 0.01 0
+multichain-cli corp6 issuefrom 1DHtdKhPW6fegE5ntSmuGZF6GALUZagS8ruGWw 1DHtdKhPW6fegE5ntSmuGZF6GALUZagS8ruGWw '{"name":"USD","open":true}' 500000 0.01 0
+multichain-cli corp6 issuefrom 1DHtdKhPW6fegE5ntSmuGZF6GALUZagS8ruGWw 1DHtdKhPW6fegE5ntSmuGZF6GALUZagS8ruGWw '{"name":"CAD","open":true}' 40000 0.01 0
+multichain-cli corp6 issuefrom 1DHtdKhPW6fegE5ntSmuGZF6GALUZagS8ruGWw 1DHtdKhPW6fegE5ntSmuGZF6GALUZagS8ruGWw '{"name":"BTC","open":true}' 500 0.000001 0
+multichain-cli corp6 issuefrom 1DHtdKhPW6fegE5ntSmuGZF6GALUZagS8ruGWw 1DHtdKhPW6fegE5ntSmuGZF6GALUZagS8ruGWw '{"name":"ETH","open":true}' 1400 0.000001 0
+
+multichain-cli corp7 issuefrom 19p5MxcDdw8sRmLf6Kxgej8KvUjv1Za19sWW5v 19p5MxcDdw8sRmLf6Kxgej8KvUjv1Za19sWW5v '{"name":"GBP","open":true}' 500000 0.01 0
+multichain-cli corp7 issuefrom 19p5MxcDdw8sRmLf6Kxgej8KvUjv1Za19sWW5v 19p5MxcDdw8sRmLf6Kxgej8KvUjv1Za19sWW5v '{"name":"USD","open":true}' 500000 0.01 0
+multichain-cli corp7 issuefrom 19p5MxcDdw8sRmLf6Kxgej8KvUjv1Za19sWW5v 19p5MxcDdw8sRmLf6Kxgej8KvUjv1Za19sWW5v '{"name":"CAD","open":true}' 40000 0.01 0
+multichain-cli corp7 issuefrom 19p5MxcDdw8sRmLf6Kxgej8KvUjv1Za19sWW5v 19p5MxcDdw8sRmLf6Kxgej8KvUjv1Za19sWW5v '{"name":"BTC","open":true}' 500 0.000001 0
+multichain-cli corp7 issuefrom 19p5MxcDdw8sRmLf6Kxgej8KvUjv1Za19sWW5v 19p5MxcDdw8sRmLf6Kxgej8KvUjv1Za19sWW5v '{"name":"ETH","open":true}' 1400 0.000001 0
+
+multichain-cli corp8 issuefrom 13sRZ2NAhP1bxvw2oyEnrKGGJZ3ZyzBLJk1FFt 13sRZ2NAhP1bxvw2oyEnrKGGJZ3ZyzBLJk1FFt '{"name":"GBP","open":true}' 500000 0.01 0
+multichain-cli corp8 issuefrom 13sRZ2NAhP1bxvw2oyEnrKGGJZ3ZyzBLJk1FFt 13sRZ2NAhP1bxvw2oyEnrKGGJZ3ZyzBLJk1FFt '{"name":"USD","open":true}' 500000 0.01 0
+multichain-cli corp8 issuefrom 13sRZ2NAhP1bxvw2oyEnrKGGJZ3ZyzBLJk1FFt 13sRZ2NAhP1bxvw2oyEnrKGGJZ3ZyzBLJk1FFt '{"name":"CAD","open":true}' 40000 0.01 0
+multichain-cli corp8 issuefrom 13sRZ2NAhP1bxvw2oyEnrKGGJZ3ZyzBLJk1FFt 13sRZ2NAhP1bxvw2oyEnrKGGJZ3ZyzBLJk1FFt '{"name":"BTC","open":true}' 500 0.000001 0
+multichain-cli corp8 issuefrom 13sRZ2NAhP1bxvw2oyEnrKGGJZ3ZyzBLJk1FFt 13sRZ2NAhP1bxvw2oyEnrKGGJZ3ZyzBLJk1FFt '{"name":"ETH","open":true}' 1400 0.000001 0
+
+multichain-cli corp9 issuefrom 1Rdj4gG4nZsgkfoWMJWV8hHXkeq6L6EttS2uvT 1Rdj4gG4nZsgkfoWMJWV8hHXkeq6L6EttS2uvT '{"name":"GBP","open":true}' 500000 0.01 0
+multichain-cli corp9 issuefrom 1Rdj4gG4nZsgkfoWMJWV8hHXkeq6L6EttS2uvT 1Rdj4gG4nZsgkfoWMJWV8hHXkeq6L6EttS2uvT '{"name":"USD","open":true}' 500000 0.01 0
+multichain-cli corp9 issuefrom 1Rdj4gG4nZsgkfoWMJWV8hHXkeq6L6EttS2uvT 1Rdj4gG4nZsgkfoWMJWV8hHXkeq6L6EttS2uvT '{"name":"CAD","open":true}' 40000 0.01 0
+multichain-cli corp9 issuefrom 1Rdj4gG4nZsgkfoWMJWV8hHXkeq6L6EttS2uvT 1Rdj4gG4nZsgkfoWMJWV8hHXkeq6L6EttS2uvT '{"name":"BTC","open":true}' 500 0.000001 0
+multichain-cli corp9 issuefrom 1Rdj4gG4nZsgkfoWMJWV8hHXkeq6L6EttS2uvT 1Rdj4gG4nZsgkfoWMJWV8hHXkeq6L6EttS2uvT '{"name":"ETH","open":true}' 1400 0.000001 0
+}

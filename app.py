@@ -14,15 +14,23 @@ infocorp6 = apicorp6.getinfo()
 infocorp7 = apicorp7.getinfo()
 infocorp8 = apicorp8.getinfo()
 infocorp9 = apicorp9.getinfo()
+abcassets = apiabc.listassets()
 
 app = Flask(__name__)
 
 @app.route('/')
 def hello():
     return render_template('index.html',
-    info1 = str(infoabc),
-    info2 = str(infoabc['chainname']))
+    info1 = str(abcassets),
+    info2 = str(infoabc['chainname']),
+    
+    
+    
+    
+    
+    )
 
-@app.route("/echo", methods=['POST'])
+@app.route("/transact", methods=['POST'])
 def echo(): 
     return "You said: " + request.form['text']
+
