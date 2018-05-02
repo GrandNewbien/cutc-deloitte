@@ -11,8 +11,6 @@ This readme was written assuming a windows environment using PowerShell, but can
 
 * Tejpal Sahota
 
-# [Trello Board](https://trello.com/b/0YOTnxj2/deloitte-challenge)
-
 # Tools used:
   
 *  [MultiChain](https://www.multichain.com/)
@@ -42,17 +40,11 @@ This readme was written assuming a windows environment using PowerShell, but can
 $ launchNodes
 $ cutc
 ```
-6. If it is your first time running, issue assets by running this command. It may take some time to complete.:
+6. If it is your first time running, issue assets by running this command. It'll issue the same amounts to every chain and it may take some time to complete:
 
 ```powershell
 $ issueAssets
 ```
-
 # Usage
 
-To be updated
-
-# Links
-
-https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ii-templates
-https://code-maven.com/using-templates-in-flask 
+Make RPC requests using Savoir or refer to the [MultiChain Documentation](https://www.multichain.com/developers/json-rpc-api/) to make requests from a cli.

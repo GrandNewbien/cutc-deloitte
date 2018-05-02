@@ -79,3 +79,14 @@ rpchost9 = 'localhost'
 rpcport9 = '6018'
 chainname9 = 'corp9'
 apicorp9 = Savoir(rpcuser9, rpcpasswd9, rpchost9, rpcport9, chainname9)
+
+abcassets = apiabc.listassets()
+corp1assets = apicorp1.listassets()
+corp2assets = apicorp2.listassets()
+corp3assets = apicorp3.listassets()
+corp4assets = apicorp4.listassets()
+corp5assets = apicorp5.listassets()
+corp6assets = apicorp6.listassets()
+corp7assets = apicorp7.listassets()
+corp8assets = apicorp8.listassets()
+corp9assets = apicorp9.listassets()

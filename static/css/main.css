@@ -1,12 +1,13 @@
 .chain {
-    width: 20%;
+    width: 19%;
     overflow: hidden;
     height: 50%;
     float: left;
-    margin: 5 5 5 5;
+    margin: 2px 2px 2px 2px;
+    padding: 5px 5px 5px 5px;
     background: #82b74b;
     color: #3e4444;
-    box-shadow: 1px 1px #405d27;
+    box-shadow: 2px 2px 2px grey;
 }
 body {
     display: flex;
@@ -18,10 +19,15 @@ form {
 
 }
 
-input {
-
+input, select {
+    background-color: #3e4444;
+    color: #82b74b
 }
 
 #footer {
+    color: #c1946a;
+}
+
+.title{
     color: #c1946a;
 }

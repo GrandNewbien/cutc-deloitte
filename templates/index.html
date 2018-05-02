@@ -1,16 +1,15 @@
 {% extends "layout.html" %}
 {% block title %}CUTC-Deloitte{% endblock %}
 {% block content %}
-
+<h1 class="title"> Corporate Coin Explorer</h1>
 <div class="chain abc">
     <h1>Chain: ABC Corp</h1>
-    <p>USD:$ </p>
-    <p>CAD:$ </p>
-    <p>GBP:£ </p>
-    <p>BTC:₿ </p>
-    <p>ETH:Ξ </p>
-    {{info1}}
-    <form action="/echo" method="POST">
+    <p>GBP:£ {{abcGBP}}</p>
+    <p>USD:$ {{abcUSD}}</p>
+    <p>CAD:$ {{abcCAD}}</p>
+    <p>BTC:₿ {{abcBTC}}</p>
+    <p>ETH:Ξ {{abcETH}}</p>
+    <form action="/transact" method="POST">
     <input type="date" name="date">
     <input placeholder="Description"name="desc">
     <input type="number" placeholder="Amount" name="date">
@@ -25,8 +24,356 @@
         <option value="corp8">Corp 8</option>
         <option value="corp9">Corp 9</option>
     </select>
-    <input type="submit" value="Transact"></form>
+    <input type="submit" value="transact"></form>
 
+    <select name="Permissions">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="Grant Permissions">
+    <input type="submit" value="Revoke Permissions">
 </div>
 
+<div class="chain corp1">
+    <h1>Chain: Corp 1</h1>
+    <p>GBP:£ {{corp1GBP}}</p>
+    <p>USD:$ {{corp1USD}}</p>
+    <p>CAD:$ {{corp1CAD}}</p>
+    <p>BTC:₿ {{corp1BTC}}</p>
+    <p>ETH:Ξ {{corp1ETH}}</p>
+    <form action="/transact" method="POST">
+    <input type="date" name="date">
+    <input placeholder="Description"name="desc">
+    <input type="number" placeholder="Amount" name="date">
+    <select name="corp">
+        <option value="corp1">ABC Corp</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="transact"></form>
+    <select name="Permissions">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="Grant Permissions">
+    <input type="submit" value="Revoke Permissions">
+</div>
+
+<div class="chain abc">
+    <h1>Chain: Corp 2</h1>
+    <p>GBP:£ {{corp2GBP}}</p>
+    <p>USD:$ {{corp2USD}}</p>
+    <p>CAD:$ {{corp2CAD}}</p>
+    <p>BTC:₿ {{corp2BTC}}</p>
+    <p>ETH:Ξ {{corp2ETH}}</p>
+    <form action="/transact" method="POST">
+    <input type="date" name="date">
+    <input placeholder="Description"name="desc">
+    <input type="number" placeholder="Amount" name="date">
+    <select name="corp">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">ABC Corp</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="transact"></form>
+    <select name="Permissions">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="Grant Permissions">
+    <input type="submit" value="Revoke Permissions">
+</div>
+
+<div class="chain abc">
+    <h1>Chain: Corp 3</h1>
+    <p>GBP:£ {{corp2GBP}}</p>
+    <p>USD:$ {{corp2USD}}</p>
+    <p>CAD:$ {{corp2CAD}}</p>
+    <p>BTC:₿ {{corp2BTC}}</p>
+    <p>ETH:Ξ {{corp2ETH}}</p>
+    <form action="/transact" method="POST">
+    <input type="date" name="date">
+    <input placeholder="Description"name="desc">
+    <input type="number" placeholder="Amount" name="date">
+    <select name="corp">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">ABC Corp</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="transact"></form>
+    <select name="Permissions">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="Grant Permissions">
+    <input type="submit" value="Revoke Permissions">
+</div>
+<div class="chain abc">
+    <h1>Chain: Corp 4</h1>
+    <p>GBP:£ {{corp2GBP}}</p>
+    <p>USD:$ {{corp2USD}}</p>
+    <p>CAD:$ {{corp2CAD}}</p>
+    <p>BTC:₿ {{corp2BTC}}</p>
+    <p>ETH:Ξ {{corp2ETH}}</p>
+    <form action="/transact" method="POST">
+    <input type="date" name="date">
+    <input placeholder="Description"name="desc">
+    <input type="number" placeholder="Amount" name="date">
+    <select name="corp">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">ABC Corp</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="transact"></form>
+    <select name="Permissions">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="Grant Permissions">
+    <input type="submit" value="Revoke Permissions">
+</div>
+<div class="chain abc">
+    <h1>Chain: Corp 5</h1>
+    <p>GBP:£ {{corp2GBP}}</p>
+    <p>USD:$ {{corp2USD}}</p>
+    <p>CAD:$ {{corp2CAD}}</p>
+    <p>BTC:₿ {{corp2BTC}}</p>
+    <p>ETH:Ξ {{corp2ETH}}</p>
+    <form action="/transact" method="POST">
+    <input type="date" name="date">
+    <input placeholder="Description"name="desc">
+    <input type="number" placeholder="Amount" name="date">
+    <select name="corp">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">ABC Corp</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="transact"></form>
+    <select name="Permissions">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="Grant Permissions">
+    <input type="submit" value="Revoke Permissions">
+</div>
+<div class="chain abc">
+    <h1>Chain: Corp 6</h1>
+    <p>GBP:£ {{corp2GBP}}</p>
+    <p>USD:$ {{corp2USD}}</p>
+    <p>CAD:$ {{corp2CAD}}</p>
+    <p>BTC:₿ {{corp2BTC}}</p>
+    <p>ETH:Ξ {{corp2ETH}}</p>
+    <form action="/transact" method="POST">
+    <input type="date" name="date">
+    <input placeholder="Description"name="desc">
+    <input type="number" placeholder="Amount" name="date">
+    <select name="corp">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">ABC Corp</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="transact"></form>
+    <select name="Permissions">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="Grant Permissions">
+    <input type="submit" value="Revoke Permissions">
+</div>
+<div class="chain abc">
+    <h1>Chain: Corp 7</h1>
+    <p>GBP:£ {{corp2GBP}}</p>
+    <p>USD:$ {{corp2USD}}</p>
+    <p>CAD:$ {{corp2CAD}}</p>
+    <p>BTC:₿ {{corp2BTC}}</p>
+    <p>ETH:Ξ {{corp2ETH}}</p>
+    <form action="/transact" method="POST">
+    <input type="date" name="date">
+    <input placeholder="Description"name="desc">
+    <input type="number" placeholder="Amount" name="date">
+    <select name="corp">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">ABC Corp</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="transact"></form>
+    <select name="Permissions">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="Grant Permissions">
+    <input type="submit" value="Revoke Permissions">
+</div>
+<div class="chain abc">
+    <h1>Chain: Corp 8</h1>
+    <p>GBP:£ {{corp2GBP}}</p>
+    <p>USD:$ {{corp2USD}}</p>
+    <p>CAD:$ {{corp2CAD}}</p>
+    <p>BTC:₿ {{corp2BTC}}</p>
+    <p>ETH:Ξ {{corp2ETH}}</p>
+    <form action="/transact" method="POST">
+    <input type="date" name="date">
+    <input placeholder="Description"name="desc">
+    <input type="number" placeholder="Amount" name="date">
+    <select name="corp">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">ABC Corp</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="transact"></form>
+    <select name="Permissions">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="Grant Permissions">
+    <input type="submit" value="Revoke Permissions">
+</div>
+<div class="chain abc">
+    <h1>Chain: Corp 9</h1>
+    <p>GBP:£ {{corp2GBP}}</p>
+    <p>USD:$ {{corp2USD}}</p>
+    <p>CAD:$ {{corp2CAD}}</p>
+    <p>BTC:₿ {{corp2BTC}}</p>
+    <p>ETH:Ξ {{corp2ETH}}</p>
+    <form action="/transact" method="POST">
+    <input type="date" name="date">
+    <input placeholder="Description"name="desc">
+    <input type="number" placeholder="Amount" name="date">
+    <select name="corp">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">ABC Corp</option>
+    </select>
+    <input type="submit" value="transact"></form>
+    <select name="Permissions">
+        <option value="corp1">Corp 1</option>
+        <option value="corp2">Corp 2</option>
+        <option value="corp3">Corp 3</option>
+        <option value="corp4">Corp 4</option>
+        <option value="corp5">Corp 5</option>
+        <option value="corp6">Corp 6</option>
+        <option value="corp7">Corp 7</option>
+        <option value="corp8">Corp 8</option>
+        <option value="corp9">Corp 9</option>
+    </select>
+    <input type="submit" value="Grant Permissions">
+    <input type="submit" value="Revoke Permissions">
+</div>
 {% endblock %}
