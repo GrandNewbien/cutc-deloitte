@@ -1,3 +1,6 @@
+# Second Place
+
+[Devpost](https://devpost.com/software/corporatecoin)
 
 # CUTC Challenge
 
